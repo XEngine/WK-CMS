@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_JT_TITLE1">Sekmeleri Güncelle</phrase>
+  <phrase data="_PLG_JT_INFO1">Sekme öğelerinizi buradan yönetebilirsiniz.</phrase>
+  <phrase data="_PLG_JT_SUBTITLE1">Sekme Düzenleme / </phrase>
+  <phrase data="_PLG_JT_TITLE">Sekme Başlığı</phrase>
+  <phrase data="_PLG_JT_PUB">Sekme Yayınlandı</phrase>
+  <phrase data="_PLG_JT_BODY">Sekme Gövdesi</phrase>
+  <phrase data="_PLG_JT_UPDATE">Sekme Güncelle</phrase>
+  <phrase data="_PLG_JT_TITLE2">Sekme Ekle</phrase>
+  <phrase data="_PLG_JT_INFO2">Buradan sekme öğesi ekleyebilirsiniz</phrase>
+  <phrase data="_PLG_JT_SUBTITLE2">Sekme Öğesi Ekleme</phrase>
+  <phrase data="_PLG_JT_ADD">Sekme Öğesi Ekle</phrase>
+  <phrase data="_PLG_JT_TITLE3">CMS Sekme Eklentisini Yönet</phrase>
+  <phrase data="_PLG_JT_INFO3">Sekme eklentisini buradan yapılandırabilirsiniz.Yeniden sıralamak ve konumlandırmak için öğelere tıklayın ve sürükleyin. Konum ayarları otomatik olarak güncellenecektir.</phrase>
+  <phrase data="_PLG_JT_SUBTITLE3">Tüm Sekmeleri Görüntüle</phrase>
+  <phrase data="_PLG_JT_POS">Konum</phrase>
+  <phrase data="_PLG_JT_TAB">Sekme</phrase>
+  <phrase data="_PLG_JT_NOTABS">Henüz bir sekme oluşturmadınız. Lütfen sekme ekleyin!</phrase>
+  <phrase data="_PLG_JT_UPDATED">Sekme başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_JT_ADDED">Sekme başarıyla eklendi!</phrase>
+</language>

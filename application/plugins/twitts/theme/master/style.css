@@ -1,0 +1,29 @@
+#twitt {
+  overflow: hidden
+}
+#twitt .twitter_item {
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02) inset,0 -4px 0 rgba(0, 0, 0, 0.02) inset;
+}
+#twitt .loading {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto
+}
+#twitt .time {
+  display: block
+}
+#twitt .text {
+  clear: both;
+  margin-top: .8em
+}
+#twitt .user > a {
+  margin-bottom: .25em;
+  font-size: 1.2em;
+  display: inline-block;
+}
+#twitt .user .time {
+  font-size: .85em
+}

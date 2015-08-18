@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GA_TITLE1">Galeriyi Düzenle</phrase>
+  <phrase data="_MOD_GA_INFO1">Galeri yapılandırmalarınızı buradan güncelleyebilirsiniz.</phrase>
+  <phrase data="_MOD_GA_SUBTITLE1">Galeri Düzenleme /</phrase>
+  <phrase data="_MOD_GA_NAME">Galeri Başlığı</phrase>
+  <phrase data="_MOD_GA_NAME_T">Varsayılan Galeri İsmi</phrase>
+  <phrase data="_MOD_GA_COLS">Kolon Sayısı</phrase>
+  <phrase data="_MOD_GA_COLS_T">Satırda görüntülenen resim sayısı</phrase>
+  <phrase data="_MOD_GA_LIKE">Beğenileri Göster</phrase>
+  <phrase data="_MOD_GA_LIKE_T">Evet olarak işaretlerseniz resmlerin kullanıcılar tarafından göörüntülenme oranları belirtilecektir.</phrase>
+  <phrase data="_MOD_GA_WATERMARK">Filigranı Etkinleştir</phrase>
+  <phrase data="_MOD_GA_WATERMARK_T">Filigran özelliğini etkinleştirmek için evet olarak işaretleyin ve filifranı yükleyin. Kullanılan dosya yöneticisinde /upload/ adresinde .png dosyası</phrase>
+  <phrase data="_MOD_GA_UPDATE">Galeriyi Güncelle</phrase>
+  <phrase data="_MOD_GA_TITLE2">Galeri Ekle</phrase>
+  <phrase data="_MOD_GA_INFO2">Buradan yeni CMS galerisi ekleyebilirsiniz.</phrase>
+  <phrase data="_MOD_GA_SUBTITLE2">Yeni Galeri Ekleme</phrase>
+  <phrase data="_MOD_GA_SELECT">Galeri Seç</phrase>
+  <phrase data="_MOD_GA_FOLDER">Galeri Klasör İsmi</phrase>
+  <phrase data="_MOD_GA_FOLDER_T"></phrase>
+  <phrase data="_MOD_GA_ADDMOD_GALLERY">Galeri Ekle</phrase>
+  <phrase data="_MOD_GA_TITLE3">Medyayı Yönet</phrase>
+  <phrase data="_MOD_GA_INFO3"></phrase>
+  <phrase data="_MOD_GA_SUBTITLE3">İçin medya görüntüleme /</phrase>
+  <phrase data="_MOD_GA_ADD_IMG">Görüntü Ekle</phrase>
+  <phrase data="_MOD_GA_NOIMG">Bu galeriye atanan herhangi bir medya dosyası yok...</phrase>
+  <phrase data="_MOD_GA_UPDATED">Galeri yapılandırması başarıyla güncellendi!</phrase>
+  <phrase data="_MOD_GA_ADDED">Galeri Başarıyla eklendi!</phrase>
+  <phrase data="_MOD_GA_TITLE4">CMS Galeri modülünü yönet</phrase>
+  <phrase data="_MOD_GA_INFO4"></phrase>
+  <phrase data="_MOD_GA_ADDNEW">Yeni galeri ekle</phrase>
+  <phrase data="_MOD_GA_SUBTITLE4">CMS Galerilerini görüntüle</phrase>
+  <phrase data="_MOD_GA_NOMOD_GAL">Henüz bir galeriniz yok...</phrase>
+  <phrase data="_MOD_GA_TOTAL_IMG">Toplam Resim</phrase>
+  <phrase data="_MOD_GA_IMG_TITLE">Resim Başlığı</phrase>
+  <phrase data="_MOD_GA_IMG_DESC">Resim Açıklaması</phrase>
+  <phrase data="_MOD_GA_SORT">Resimleri Sırala</phrase>
+  <phrase data="_MOD_GA_TITLE5">Medyaları Sırala</phrase>
+  <phrase data="_MOD_GA_INFO5"></phrase>
+  <phrase data="_MOD_GA_DIRERROR">Geçersiz Dizin Tespiti</phrase>
+  <phrase data="_MOD_GA_HELP">Galeri Yardım</phrase>
+  <phrase data="_MOD_GA_EDIT">Resim Başlığı/Açıklama</phrase>
+  <phrase data="_MOD_GA_EDIT_T"></phrase>
+  <phrase data="_MOD_GA_UPL">Resim Güncellendi</phrase>
+  <phrase data="_MOD_GA_UPL_T"></phrase>
+</language>

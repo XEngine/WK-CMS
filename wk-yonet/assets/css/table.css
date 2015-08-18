@@ -1,0 +1,472 @@
+/* == Table == */
+.wk.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.wk.table th,
+.wk.table tr,
+.wk.table td {
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+/* == Headers == */
+.wk.table thead {
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.wk.table tfoot th {
+  background-color: rgba(0,0,0,0.03);
+}
+.wk.table th {
+  cursor: auto;
+  font-family: 'Open Sans Condensed';
+  background-color: rgba(233,233,225,0.7);
+  text-align: left;
+  color: rgba(0,0,0,0.5);
+  padding: .8em 1em;
+  vertical-align: middle;
+  text-shadow: 0 1px 0 #fff
+}
+.wk.table thead th:first-child {
+  border-radius: .325em 0 0 0;
+}
+.wk.table thead th:last-child {
+  border-radius: 0 .325em 0 0;
+}
+.wk.table tfoot th:first-child {
+  border-radius: 0 0 0 .325em;
+}
+.wk.table tfoot th:last-child {
+  border-radius: 0 0 .325em 0;
+}
+/* == Cells == */
+.wk.table td {
+  padding: .8em 1em;
+  vertical-align: middle;
+  box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.6);
+  border-top: 1px solid #E2E4D0;
+}
+/* == Footer == */
+.wk.table tfoot {
+  border-top: 1px solid rgba(0,0,0,0.03);
+}
+.wk.table tfoot th {
+  font-weight: 400;
+  font-style: italic;
+}
+/* == Stripping == */
+.wk.table tbody tr:nth-child(2n) {
+  background-color: rgba(241,242,234,1);
+}
+.wk.table > .icon {
+  vertical-align: baseline;
+}
+.wk.table > .icon:only-child {
+  margin: 0;
+}
+/* == Segment == */
+.wk.table.segment:after {
+  display: none;
+}
+.wk.table.segment.stacked:after {
+  display: block;
+}
+/* == Sortable == */
+.wk.sortable.table th.disabled:hover {
+  cursor: auto;
+  font-weight: 600;
+  color: rgba(0,0,0,0.5);
+  background-color: rgba(233,233,225,0.7);
+}
+.wk.sortable.table thead th:hover {
+  background-color: rgba(228,228,220,1);
+  color: rgba(0,0,0,0.8);
+}
+/* == States == */
+.wk.table tr.positive,
+.wk.table td.positive {
+  -webkit-box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+  box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+}
+.wk.table tr.positive td,
+.wk.table td.positive {
+  background-color: #a9d5be;
+  color: #3e7558;
+}
+.wk.celled.table tr.positive:hover td,
+.wk.celled.table tr:hover td.positive,
+.wk.table tr.positive:hover td,
+.wk.table td:hover.positive,
+.wk.table th:hover.positive {
+  background-color: #88c4a4;
+  color: #3e7558;
+}
+.wk.table tr.negative,
+.wk.table td.negative {
+  -webkit-box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+  box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+}
+.wk.table tr.negative td,
+.wk.table td.negative {
+  background-color: #d6909a;
+  color: #6d2d36;
+}
+.wk.celled.table tr.negative:hover td,
+.wk.celled.table tr:hover td.negative,
+.wk.table tr.negative:hover td,
+.wk.table td:hover.negative,
+.wk.table th:hover.negative {
+  background-color: #c76c78;
+  color: #6d2d36;
+}
+.wk.table tr.error,
+.wk.table td.error {
+  -webkit-box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+  box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+}
+.wk.table tr.error td,
+.wk.table td.error,
+.wk.table th.error {
+  background-color: #d6909a;
+  color: #6d2d36;
+}
+.wk.celled.table tr.error:hover td,
+.wk.celled.table tr:hover td.error,
+.wk.table tr.error:hover td,
+.wk.table td:hover.error,
+.wk.table th:hover.error {
+  background-color: #c76c78;
+  color: #6d2d36;
+}
+.wk.table tr.warning,
+.wk.table td.warning {
+  -webkit-box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+  box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+}
+.wk.table tr.warning td,
+.wk.table td.warning,
+.wk.table th.warning {
+  background-color: #fedd8c;
+  color: #ba8505;
+}
+.wk.celled.table tr.warning:hover td,
+.wk.celled.table tr:hover td.warning,
+.wk.table tr.warning:hover td,
+.wk.table td:hover.warning,
+.wk.table th:hover.warning {
+  background-color: #fdce5a;
+  color: #ba8505;
+}
+.wk.table tr.info,
+.wk.table td.info {
+  -webkit-box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+  box-shadow: 3px 0 0 0 rgba(0,0,0,0.15) inset;
+}
+.wk.table tr.info td,
+.wk.table td.info {
+  background-color: #bed3ea;
+  color: #3a6da2;
+}
+.wk.celled.table tr.info:hover td,
+.wk.celled.table tr:hover td.info,
+.wk.table tr.info:hover td,
+.wk.table td:hover.info,
+.wk.table th:hover.info {
+  background-color: #98badd;
+  color: #3a6da2;
+}
+.wk.table tr.active,
+.wk.table td.active {
+  -webkit-box-shadow: 2px 0 0 rgba(50,50,50,0.9) inset;
+  box-shadow: 2px 0 0 rgba(50,50,50,0.9) inset;
+}
+.wk.table tr.active td,
+.wk.table tr td.active {
+  background-color: #E0E0E0;
+  color: rgba(50,50,50,0.9);
+}
+.wk.table tr.disabled td,
+.wk.table tr td.disabled,
+.wk.table tr.disabled:hover td,
+.wk.table tr:hover td.disabled {
+  color: rgba(150,150,150,0.3);
+}
+/* == Variations == */
+.wk.two.cols.table td {
+  width: 50%;
+}
+.wk.three.cols.table td {
+  width: 33.3333%;
+}
+.wk.four.cols.table td {
+  width: 25%;
+}
+.wk.five.cols.table td {
+  width: 20%;
+}
+.wk.six.cols.table td {
+  width: 16.66667%;
+}
+.wk.seven.cols.table td {
+  width: 14.2857%;
+}
+.wk.eight.cols.table td {
+  width: 12.5%;
+}
+.wk.nine.cols.table td {
+  width: 11.1111%;
+}
+.wk.ten.cols.table td {
+  width: 10%;
+}
+.wk.eleven.cols.table td {
+  width: 9.0909%;
+}
+.wk.twelve.cols.table td {
+  width: 8.3333%;
+}
+.wk.thirteen.cols.table td {
+  width: 7.6923%;
+}
+.wk.fourteen.cols.table td {
+  width: 7.1428%;
+}
+.wk.fifteen.cols.table td {
+  width: 6.6666%;
+}
+.wk.sixteen.cols.table td {
+  width: 6.25%;
+}
+/* == Column Width == */
+.wk.table th.one.wide,
+.wk.table td.one.wide {
+  width: 6.25%;
+}
+.wk.table th.two.wide,
+.wk.table td.two.wide {
+  width: 12.5%;
+}
+.wk.table th.three.wide,
+.wk.table td.three.wide {
+  width: 18.75%;
+}
+.wk.table th.four.wide,
+.wk.table td.four.wide {
+  width: 25%;
+}
+.wk.table th.five.wide,
+.wk.table td.five.wide {
+  width: 31.25%;
+}
+.wk.table th.six.wide,
+.wk.table td.six.wide {
+  width: 37.5%;
+}
+.wk.table th.seven.wide,
+.wk.table td.seven.wide {
+  width: 43.75%;
+}
+.wk.table th.eight.wide,
+.wk.table td.eight.wide {
+  width: 50%;
+}
+.wk.table th.nine.wide,
+.wk.table td.nine.wide {
+  width: 56.25%;
+}
+.wk.table th.ten.wide,
+.wk.table td.ten.wide {
+  width: 62.5%;
+}
+.wk.table th.eleven.wide,
+.wk.table td.eleven.wide {
+  width: 68.75%;
+}
+.wk.table th.twelve.wide,
+.wk.table td.twelve.wide {
+  width: 75%;
+}
+.wk.table th.thirteen.wide,
+.wk.table td.thirteen.wide {
+  width: 81.25%;
+}
+.wk.table th.fourteen.wide,
+.wk.table td.fourteen.wide {
+  width: 87.5%;
+}
+.wk.table th.fifteen.wide,
+.wk.table td.fifteen.wide {
+  width: 93.75%;
+}
+.wk.table th.sixteen.wide,
+.wk.table td.sixteen.wide {
+  width: 100%;
+}
+/* == Celled == */
+.wk.celled.table {
+  color: rgba(0,0,0,0.8);
+}
+.wk.celled.table tbody tr,
+.wk.celled.table tfoot tr {
+  border: none;
+}
+.wk.celled.table th,
+.wk.celled.table td {
+  border: 1px solid rgba(0,0,0,0.1);
+}
+.wk.celled.table th {
+  border-top: 0;
+  box-shadow: inset 1px 0 0 0 rgba(255,255,255,0.6);
+}
+.wk.celled.table tfoot td {
+  border-bottom: 0;
+}
+/* == Coupling == */
+.wk.celled.table.segment th:first-child,
+.wk.celled.table.segment td:first-child {
+  border-left: none;
+  box-shadow: none;
+}
+.wk.celled.table.segment th:last-child,
+.wk.celled.table.segment td:last-child {
+  border-right: none;
+}
+/* == Sortable == */
+.wk.sortable.table thead th {
+  cursor: pointer;
+  white-space: nowrap;
+}
+.wk.sortable.table thead th.asc,
+.wk.sortable.table thead th.desc {
+  background-color: rgba(228,228,220,1);
+}
+.wk.sortable.table thead th.asc:hover,
+.wk.sortable.table thead th.desc:hover {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.wk.sortable.table thead th:after {
+  display: inline-block;
+  width: 1em;
+  opacity: 0.5;
+  margin: 0 0 0 .5em;
+  font-family: Icons;
+  content: '\f0dc';
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: inherit;
+}
+.wk.sortable.table thead th.asc:after {
+  content: '\f0de';
+}
+.wk.sortable.table thead th.desc:after {
+  content: '\f0dd';
+}
+.wk.sortable.table th.disabled:after {
+  content: '';
+}
+.wk.sortable.table td.handle {
+  background-color: rgba(0,0,0,0.03);
+  cursor: move;
+}
+/* == Collapsing == */
+.wk.collapsing.table {
+  width: auto;
+}
+/* == Basic == */
+.wk.basic.table th {
+  background-color: transparent;
+  padding: .5em;
+}
+.wk.basic.table tbody tr {
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+.wk.basic.table td {
+  padding: .8em .5em;
+}
+.wk.basic.table tbody tr:nth-child(2n) {
+  background-color: transparent;
+}
+/* == Padded == */
+.wk.padded.table th,
+.wk.padded.table td {
+  padding: .8em 1em;
+}
+.wk.compact.table th {
+  padding: .3em .5em;
+}
+.wk.compact.table td {
+  padding: .2em .5em;
+}
+/* == Sizes == */
+.wk.small.table {
+  font-size: .875em;
+}
+.wk.table {
+  font-size: 1em;
+}
+.wk.large.table {
+  font-size: 1.1em;
+}
+/* == Responsive == */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .wk.table {
+    display: block;
+    padding: 0;
+  }
+  .wk.table thead {
+    display: none;
+  }
+  .wk.table tbody,
+  .wk.table tfoot {
+    display: block;
+  }
+  .wk.table tr {
+    display: block;
+  }
+  .wk.table tr > td {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: .25em .75em;
+    -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.05);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.05);
+  }
+  .wk.table td:first-child {
+    font-weight: 700;
+    padding-top: 1em;
+  }
+  .wk.table td:last-child {
+    -webkit-box-shadow: 0 -1px 0 0 rgba(0,0,0,0.1) inset;
+    box-shadow: 0 -1px 0 0 rgba(0,0,0,0.1) inset;
+    padding-bottom: 1em;
+  }
+  .wk.basic.table td:first-child {
+    font-weight: 400;
+  }
+  .wk.basic.table td:last-child {
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    padding-bottom: 1em;
+  }
+  .wk.celled.table td {
+    border: 0;
+  }
+  .wk.table *[class*="hide-"] {
+    display: none;
+  }
+   .wk.table tr > td.warning,
+   .wk.table tr > td.error,
+   .wk.table tr > td.active,
+   .wk.table tr > td.positive,
+   .wk.table tr > td.info,
+   .wk.table tr > td.negative {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_CS_TITLE">Slayt İçerik Eklentisini Yönet</phrase>
+  <phrase data="_PLG_CS_CAPTION">Slayt Başlığı</phrase>
+  <phrase data="_PLG_CS_DESC">Slayt Açıklaması</phrase>
+  <phrase data="_PLG_CS_POS">Konum</phrase>
+  <phrase data="_PLG_CS_NOIMG">Henüz bir slayt eklenmemiş. Lütfen bir slayt ekleyin</phrase>
+  <phrase data="_PLG_CS_INFO3">Slayt eklentisini buradan yapılandırabilirsiniz. Yeniden sıralandırmak için hangi pozisyona gelmesini istiyorsanız oraya tıklayın ya da sürükleyin. Konum otomatik olarak güncellenecektir.</phrase>
+  <phrase data="_PLG_CS_SUBTITLE3">Tüm slaytlar gösteriliyor</phrase>
+  <phrase data="_PLG_CS_SUBTITLE2">Slayt düzenleniyor / </phrase>
+  <phrase data="_PLG_CS_TITLE2">Slaytı düzenle</phrase>
+  <phrase data="_PLG_CS_INFO2">Mevcut slaytınızı buradan güncelleyebilirsiniz.</phrase>
+  <phrase data="_PLG_CS_SUBTITLE1">Slayt ekleniyor</phrase>
+  <phrase data="_PLG_CS_TITLE1">Slayt ekle</phrase>
+  <phrase data="_PLG_CS_INFO1">Buradan yeni slayt ekleyebilirsiniz.</phrase>
+  <phrase data="_PLG_CS_CONF">Yapılandırma</phrase>
+  <phrase data="_PLG_CS_UPDATE">Slaytı güncelle</phrase>
+  <phrase data="_PLG_CS_SLIDE">Slayt</phrase>
+  <phrase data="_PLG_CS_ADDSLIDE">Slayt Ekle</phrase>
+  <phrase data="_PLG_CS_ADDED">Slayt başarıyla eklendi.</phrase>
+  <phrase data="_PLG_CS_UPDATED">Slayt başarıyla güncellendi.</phrase>
+</language>

@@ -1,0 +1,45 @@
+#online-users.online,
+#online-users .items {
+  background-color: #363B3F;
+  color: #fff;
+  padding: .5em;
+  position: relative;
+  cursor: pointer;
+  border-radius: 0.225em;
+}
+#online-users.online {
+  display: table;
+  width: 100%
+}
+#online-users .counter {
+  display: table-cell;
+  font-size: 2em;
+  text-align: left;
+  vertical-align: middle;
+}
+#online-users .title {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: .85em;
+  text-transform: uppercase;
+}
+#online-users .button {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+#online-users .items {
+  position: absolute;
+  color: #fff;
+  cursor: default;
+  bottom: 50px;
+  width: 100%;
+  left: 0;
+  height: auto;
+  display: none;
+  z-index: 1000;
+}
+.preloader {
+  display: block;
+  margin: 10px auto;
+}

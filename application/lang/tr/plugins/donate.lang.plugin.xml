@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_DP_TITLE1">Bağış Yapılandırma</phrase>
+  <phrase data="_PLG_DP_INFO1">Bağış yapılandırma ayarlarınızı buradan yönetebilirsiniz.</phrase>
+  <phrase data="_PLG_DP_SUBTITLE1">Yapılandırmayı Düzenle</phrase>
+  <phrase data="_PLG_DP_TARGET">Hedef Ekle</phrase>
+  <phrase data="_PLG_DP_TARGET_T">Bağış Kampanyası için hedeflenen miktar</phrase>
+  <phrase data="_PLG_DP_PAYPAL">PayPal Email Address</phrase>
+  <phrase data="_PLG_DP_PAYPAL_T">PayPal Adresi. Geçerli ve küçük -büyük harfe duyarlı olduğuna emin olun.</phrase>
+  <phrase data="_PLG_DP_THANKYOU">Teşekkürler Sayfası</phrase>
+  <phrase data="_PLG_DP_THANKYOU_T">Bağış işlemi tamamlandıktan sonra varsayılan sayfaya yeniden yönlendirileceksiniz.</phrase>
+  <phrase data="_PLG_DP_UPDATE">Güncelleme Ayarları</phrase>
+  <phrase data="_PLG_DP_UPDATED">Bağış ayarları başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_DP_TITLE2">CMS Bağış Eklentisini Yönet</phrase>
+  <phrase data="_PLG_DP_INFO2">Tüm bağışlarınızı buradan görüntüleyebilirsiniz. Bağışı sıfırladığınızda tüm işlem kayıtları temizlenecektir ve sayaç sıfırdan başlayacaktır. Basğışları Dışa aktardığınızda veriler .xls formatıyla dışa aktarılacaktır.</phrase>
+  <phrase data="_PLG_DP_SUBTITLE2">Tüm bağışları görüntüle</phrase>
+  <phrase data="_PLG_DP_RESET">Bağışı sıfırla</phrase>
+  <phrase data="_PLG_DP_EXPORT">Bağış Gönder</phrase>
+  <phrase data="_PLG_DP_NODONATIONS">Henüz herhangi bir bağışınız yok!</phrase>
+  <phrase data="_PLG_DP_TARGET1">Hedef</phrase>
+  <phrase data="_PLG_DP_DONATE">Şimdi Bağış Yap!</phrase>
+  <phrase data="_PLG_DP_NAME">Ad - Soyad</phrase>
+  <phrase data="_PLG_DP_EMAIL">E-Posta Adresi</phrase>
+  <phrase data="_PLG_DP_AMOUNT">Miktar</phrase>
+  <phrase data="_PLG_DP_CREATED">Oluşturuldu</phrase>
+  <phrase data="_PLG_DP_CONFIG">Yapılandırma</phrase>
+  <phrase data="_PLG_DP_REPORT">Bağış Raporu</phrase>
+  <phrase data="_PLG_DP_ADD">Ödeme kaydı ekleyin</phrase>
+  <phrase data="_PLG_DP_ADDED">Bağış kaydı yapıldı</phrase>
+  <phrase data="_PLG_DP_ADDEDERR">Lütfen gerekli alanları doldurun</phrase>
+  <phrase data="_PLG_DP_HELP">Bağış Hakkında</phrase>
+</language>

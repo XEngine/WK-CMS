@@ -1,0 +1,62 @@
+#blogcats li,
+#blogcats ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+#blogcats li {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 1px 0 0 #FFFFFF;
+  display: block;
+  position: relative
+}
+#blogcats li a {
+  display: inline-block;
+  position: relative;
+  padding: .55em 0;
+  color: #888888
+}
+#blogcats li a:hover,
+#blogcats li a.active {
+  color: #00B8E1
+}
+#blogcats li a > i.icon {
+  margin-right: .5em;
+}
+#blogcats li a small {
+  display: inline-block;
+  margin-left: 1em;
+}
+#blogcats .menu-submenu {
+  display: none;
+  top: 0
+}
+#blogcats .menu-submenu li {
+  border-bottom: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  box-shadow: none;
+  position: relative;
+}
+#blogcats .menu-submenu li a {
+  padding: 8px 25px
+}
+#blogcats .menu-submenu li ul li {
+}
+#blogcats .menu-submenu li ul li a {
+  padding: 8px 45px
+}
+#blogcats .menu-submenu li ul li ul li {
+}
+#blogcats .menu-submenu li ul li ul li a {
+  padding: 8px 65px
+}
+#blogcats i.icon.down.arrow {
+  position: absolute;
+  right: 0;
+  display: block;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}

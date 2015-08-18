@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_PL_TITLE1">Anket Sorularını Düzenle</phrase>
+  <phrase data="_PLG_PL_INFO1">Buradan anket sorularını güncelleyebilriisniz.</phrase>
+  <phrase data="_PLG_PL_SUBTITLE1">Anket soruları düzenleme / </phrase>
+  <phrase data="_PLG_PL_QUESTION">Anket Sorusu</phrase>
+  <phrase data="_PLG_PL_QUESTION_T">Varsayılan Anket Sorusu</phrase>
+  <phrase data="_PLG_PL_OPTIONS">Anket Seçenekleri</phrase>
+  <phrase data="_PLG_PL_OPTIONS_T">İhtiyacınız olan birçok seçenek ekleyebilirsiniz. Not: Aktif anketlerin seçeneklerini oylara göre eklenip kaldırılabilir </phrase>
+  <phrase data="_PLG_PL_ACTIVE">Anketi Aktif Duruma Getir</phrase>
+  <phrase data="_PLG_PL_ADD_Q">Anket Seçeneği Ekle</phrase>
+  <phrase data="_PLG_PL_DEL_Q">Delete Poll Option</phrase>
+  <phrase data="_PLG_PL_UPDATE">Anketi Güncelle</phrase>
+  <phrase data="_PLG_PL_TITLE2">Yeni Anket Ekle</phrase>
+  <phrase data="_PLG_PL_INFO2">Buradan yeni anket ekleyebilirsiniz</phrase>
+  <phrase data="_PLG_PL_SUBTITLE2">Anket Ekleme</phrase>
+  <phrase data="_PLG_PL_ADD">Anket Ekle</phrase>
+  <phrase data="_PLG_PL_TITLE3">CMS Anket Eklentisini Yönet</phrase>
+  <phrase data="_PLG_PL_INFO3">Anket eklentisini buradan yapılandırabilirsiniz.</phrase>
+  <phrase data="_PLG_PL_SUBTITLE3">Tüm Anketleri Göster</phrase>
+  <phrase data="_PLG_PL_ADD1">Yeni Anket Ekle</phrase>
+  <phrase data="_PLG_PL_VIEW">Göster</phrase>
+  <phrase data="_PLG_PL_POLL">Anket</phrase>
+  <phrase data="_PLG_PL_NOPOLL">Henüz bir anket oluşturmadınız!</phrase>
+  <phrase data="_PLG_PL_UPDATED">Anket soruları başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_PL_ADDED">Anket sorusu başarıyla eklendi!</phrase>
+  <phrase data="_PLG_PL_TOTAL">Toplam Oy:</phrase>
+  <phrase data="_PLG_PL_VOTES">Oylar</phrase>
+  <phrase data="_PLG_PL_NOW">Oy Ver!</phrase>
+  <phrase data="_PLG_PL_RESULT">Sonuçları Göster</phrase>
+  <phrase data="_PLG_PL_THANKS">Oy verdiğiniz için teşekkürler</phrase>
+  <phrase data="_PLG_PL_HELP">Anket Yardım</phrase>
+</language>

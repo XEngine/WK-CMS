@@ -1,0 +1,226 @@
+#pl_plugin {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#pl_videoContainer {
+  float: none;
+  width: auto;
+}
+#pl_video {
+  position: relative;
+  height: 0;
+  padding-top: 0px;
+  padding-bottom: 56.25%;
+  background: #4a5c62;
+}
+#pl_video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#pl_playlistContainer {
+  position: relative;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  float: right;
+  width: 100%;
+  height: 0;
+  padding-top: 0px;
+  padding-bottom: 50%;
+  background: #4a5c62;
+}
+#pl_playlist {
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#pl_playlist li {
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  
+}
+#pl_playlist li:hover {
+  background: #53BD99;
+}
+.pl_currentVideo,
+#pl_playlist .pl_currentVideo:hover {
+  background: #53BD99;
+  color: #ffffff;
+}
+#pl_playlist .pl_currentVideo .pl_title{
+  color: #ffffff;
+}
+#pl_playlist li a {
+  display: inline-block;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2.5%;
+  text-decoration: none;
+}
+.pl_thumbnail {
+  position: relative;
+  display: inline-block;
+  overflow-y: hidden;
+  float: left;
+  width: 40px;
+  height: 22px;
+  margin-right: 2.5%;
+  border: 2px solid #fff;
+}
+#pl_playlist li:hover .pl_thumbnail {
+  border: 2px solid #4a5c62;
+}
+.pl_currentVideo .pl_thumbnail,
+#pl_playlist .pl_currentVideo:hover .pl_thumbnail {
+  border: 2px solid #4a5c62;
+}
+.pl_thumbnail img {
+  position: absolute;
+  top: -4px;
+  width: 40px;
+}
+.pl_title {
+  overflow: hidden;
+  color: #53BD99;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom:0
+}
+.pl_author {
+  overflow: hidden;
+  color: #fff;
+  font-size: 10px;
+  font-size: 0.625rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#pl_playlist li:hover .pl_author,
+#pl_playlist li:hover .pl_title {
+  color: #ffffff;
+}
+.pl_currentVideo .pl_author,
+#pl_playlist .pl_currentVideo:hover .pl_author {
+  color: #ffffff;
+}
+ @media screen and (min-width: 320px) {
+.pl_thumbnail {
+  width: 60px;
+  height: 33px;
+}
+.pl_thumbnail img {
+  top: -6px;
+  width: 60px;
+}
+.pl_author {
+  padding-top: 2px;
+}
+}
+ @media screen and (min-width: 480px) {
+.pl_thumbnail {
+  width: 80px;
+  height: 45px;
+}
+.pl_thumbnail img {
+  top: -8px;
+  width: 80px;
+}
+.pl_title {
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+.pl_author {
+  font-size: 12px;
+  font-size: 0.75rem;
+  padding-top: 6px;
+}
+}
+ @media screen and (min-width: 720px) {
+#pl_videoContainer {
+  float: left;
+  width: 70%;
+}
+#pl_playlistContainer {
+  width: 30%;
+  padding-bottom: 39.35%;
+}
+.pl_thumbnail {
+  width: 60px;
+  height: 33px;
+}
+.pl_thumbnail img {
+  top: -6px;
+  width: 60px;
+}
+.pl_title {
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+.pl_author {
+  font-size: 11px;
+  font-size: 0.6875rem;
+  padding-top: 2px;
+}
+}
+ @media screen and (min-width: 960px) {
+.pl_thumbnail {
+  width: 80px;
+  height: 45px;
+}
+.pl_thumbnail img {
+  top: -8px;
+  width: 80px;
+}
+.pl_author {
+  padding-top: 4px;
+}
+}
+
+/* iphone landscape fix */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape), (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+#pl_videoContainer {
+  float: left;
+  width: 70%;
+}
+#pl_playlistContainer {
+  width: 30%;
+  padding-bottom: 39.35%;
+}
+.pl_thumbnail {
+  width: 40px;
+  height: 22px;
+}
+.pl_thumbnail img {
+  top: -4px;
+  width: 40px;
+}
+.pl_title {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+.pl_author {
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+}

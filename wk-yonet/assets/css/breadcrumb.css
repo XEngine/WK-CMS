@@ -1,0 +1,48 @@
+/* == Breadcrumb == */
+.wk.breadcrumb {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Open Sans Condensed';
+  font-weight: 600;
+  margin: .25em 0 0;
+}
+.wk.breadcrumb:first-child {
+  margin-top: 0;
+  white-space: nowrap;
+}
+.wk.breadcrumb:last-child {
+  margin-bottom: 0;
+}
+/* == Content == */
+.wk.breadcrumb .divider {
+  display: inline-block;
+  opacity: 0.5;
+  margin: 0 .15em;
+  font-size: 1em;
+  color: rgba(0,0,0,0.3);
+}
+.wk.breadcrumb a.section {
+  cursor: pointer;
+}
+.wk.breadcrumb .section {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.wk.breadcrumb.segment {
+  display: inline-block;
+  padding: .5em 1em;
+}
+.wk.breadcrumb .active.section {
+  font-weight: 700;
+}
+/* == Variations == */
+.wk.small.breadcrumb {
+  font-size: .75em;
+}
+.wk.large.breadcrumb {
+  font-size: 1.1em;
+}
+.wk.huge.breadcrumb {
+  font-size: 1.3em;
+}

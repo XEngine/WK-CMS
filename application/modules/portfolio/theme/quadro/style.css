@@ -1,0 +1,33 @@
+#foliowrap {
+  position: relative
+}
+#foliowrap .item {
+  box-shadow: 0 0 0 2px rgba(0,0,0,.1);
+}
+#foliowrap section {
+  position: relative;
+}
+
+#foliowrap h4,
+#foliowrap p  {
+  padding:1em
+}
+#foliowrap h4 {
+  font-family: 'Raleway';
+  margin:0;
+  padding-bottom:0;
+  position:relative;
+}
+#foliowrap h4:after {
+  position:absolute;
+  width:50%;
+  content: "";
+  height:2px;
+  right:0;
+  top:0;
+  background-color: #E14D43;
+}
+
+#folio-single .pitem {
+  box-shadow: -4px -4px 0 0 rgba(0,0,0,0.1), 3px 3px 0 0 #E14D43;
+}

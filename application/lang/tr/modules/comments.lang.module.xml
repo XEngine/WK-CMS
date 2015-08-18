@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_CM_COMMENTS">Yorumlar</phrase>
+  <phrase data="_MOD_CM_NOCOMMENTS">Henüz yorum yok...</phrase>
+  <phrase data="_MOD_CM_REPLY">Yorum Ekle</phrase>
+  <phrase data="_MOD_CM_NAME">İsim</phrase>
+  <phrase data="_MOD_CM_COMMENT">Yorumunuz</phrase>
+  <phrase data="_MOD_CM_HAS_C">Yanıt </phrase>
+  <phrase data="_MOD_CM_E_NOT_V">E-posta adresiniz yayınlanmayacak.</phrase>
+  <phrase data="_MOD_CM_WEB">Website</phrase>
+  <phrase data="_MOD_CM_CAPTCHA_N">Güvenlik Kodu</phrase>
+  <phrase data="_MOD_CM_ADDCOMMENT">Yorum Ekle</phrase>
+  <phrase data="_MOD_CHAR_REMAIN1">Kalan Deneme Sayısı </phrase>
+  <phrase data="_MOD_CHAR_REMAIN2"> kalan karakter.</phrase>
+  <phrase data="_MOD_CM_REPLY2">Cevapla</phrase>
+  <phrase data="_MOD_CM_MSGOK1">Teşekkürler! Yorumunuz eklendi</phrase>
+  <phrase data="_MOD_CM_MSGOK2">Teşekkürler! Yorumunuz onay bekliyor.</phrase>
+  <phrase data="_MOD_CM_MSGERR3">Yalnızca kayıtlı kullanıcılar yorum bırakabilir. Lütfen kayıt olun ya da giriş yapın.</phrase>
+
+  <!-- Post -->
+  <phrase data="_MOD_CM_E_NAME">Lütfen geçerli bir isim girin</phrase>
+  <phrase data="_MOD_CM_E_CAPTCHA">Lütfen güvenlik kodunu girin</phrase>
+  <phrase data="_MOD_CM_E_CAPTCHA2">Girdiğiniz güvenlik kodu geçersiz</phrase>
+  <phrase data="_MOD_CM_E_EMAIL">Lütfen e-posta adresinizi girin</phrase>
+  <phrase data="_MOD_CM_E_EMAIL2">Girilen e-posta adresi geçersiz</phrase>
+  <phrase data="_MOD_CM_E_WWW">Girilen websitesi geçersiz. http:// ile başlamalıdır.</phrase>
+  <phrase data="_MOD_CM_E_COMMENT">Lütfen yorumunuzu giriniz</phrase>
+  <phrase data="_MOD_CM_MSG_ERR">Yorumunuz aşağıdaki hata nedeniyle gönderilemedi:</phrase>
+  <phrase data="_MOD_CM_MSG_ADMIN">Yeni Yorum Var!</phrase>
+
+  <!-- Backend -->
+  <phrase data="_MOD_CM_TITLE1">Yorum Yapılandırmaları</phrase>
+  <phrase data="_MOD_CM_INFO1">Yorum yapılandırma ayarlarını buradan güncelleyebilirsiniz</phrase>
+  <phrase data="_MOD_CM_SUBTITLE1">Yorum yapılandırma ayarlarını güncelle</phrase>
+  <phrase data="_MOD_CM_UNAME_R">Kullanıcı adı gerekli</phrase>
+  <phrase data="_MOD_CM_UNAME_T">Yorum eklemek için kullanıcı adı gerekli mi?</phrase>
+  <phrase data="_MOD_CM_EMAIL_R">E-posta gerekli</phrase>
+  <phrase data="_MOD_CM_EMAIL_T">Yorum eklemek için e-posta gerekli mi?</phrase>
+  <phrase data="_MOD_CM_CAPTCHA">Güvenlik kodunu göster</phrase>
+  <phrase data="_MOD_CM_CAPTCHA_T">Güvenlik kodu spam gönderilerin girilmemesi için gereklidir</phrase>
+  <phrase data="_MOD_CM_WWW">Websitesi Göster</phrase>
+  <phrase data="_MOD_CM_WWW_T">Gönderileri websitesinde göster</phrase>
+  <phrase data="_MOD_CM_UNAME_S">Kullanıcı adını göster</phrase>
+  <phrase data="_MOD_CM_UNAME_ST">Gönderenin kullanıcı adını göster</phrase>
+  <phrase data="_MOD_CM_EMAIL_S">E-posta Göster</phrase>
+  <phrase data="_MOD_CM_EMAIL_ST">Gönderenin e-posta adresini göster</phrase>
+  <phrase data="_MOD_CM_REG_ONLY">Genel Erişim</phrase>
+  <phrase data="_MOD_CM_REG_ONLY_T">Hayır olarak işaretlerseniz yalnızca kayıtlı ve giriş yapan kullanıcılar yorum gönderebilir. Aksi takdirde tüm ziretçiler yorum ekleyebilir.</phrase>
+  <phrase data="_MOD_CM_SORTING">Yorum Kısaltma</phrase>
+  <phrase data="_MOD_CM_SORTING_T">--- En son / Üstte ---</phrase>
+  <phrase data="_MOD_CM_SORTING_B">--- En Son / Altta ---</phrase>
+  <phrase data="_MOD_CM_CHAR">Karakter Sınırlaması</phrase>
+  <phrase data="_MOD_CM_CHAR_T">Yorumlar için karakter sınırlaması.</phrase>
+  <phrase data="_MOD_CM_PERPAGE">Her sayfada yer alan yorumlar</phrase>
+  <phrase data="_MOD_CM_PERPAGE_T">Her sayfada kaç adet yorum görünecek</phrase>
+  <phrase data="_MOD_CM_AA">Otomatik Onay</phrase>
+  <phrase data="_MOD_CM_AA_T">Tüm yorumları otomatik olarak onaylar</phrase>
+  <phrase data="_MOD_CM_NOTIFY">Bildirimler</phrase>
+  <phrase data="_MOD_CM_NOTIFY_T">Eklenen her yorum için e-posta bildirimi gönder. Bildirimler siteye eklenen e-posta adresine gönderilir</phrase>
+  <phrase data="_MOD_CM_DATE">Tarih Formatı</phrase>
+  <phrase data="_MOD_CM_DATE_T">Gönderi süresini göstermek için kullanılan tarih formatı</phrase>
+  <phrase data="_MOD_CM_WORDS">Engellenen Kelimeler</phrase>
+  <phrase data="_MOD_CM_WORDS_T">Engellenen kelimeler *** olarak görüntülenir</phrase>
+  <phrase data="_MOD_CM_UPDATE_B">Yapılandırma ayarlarını güncelle</phrase>
+  <phrase data="_MOD_CM_TITLE3">CMS Yorum Modülünü Yönet</phrase>
+  <phrase data="_MOD_CM_INFO3">Cms yorum modülünü buradan yönetebilirsiniz.</phrase>
+  <phrase data="_MOD_CM_SUBTITLE3">CMS yorumların görüntüle</phrase>
+  <phrase data="_MOD_CM_CONFIG">Yorum Yapılandırmaları</phrase>
+  <phrase data="_MOD_CM_SHOWFROM">Tarihinden itibaren</phrase>
+  <phrase data="_MOD_CM_SHOWTO">Bugüne kadar</phrase>
+  <phrase data="_MOD_CM_UNAME">Kullanıcı Adı</phrase>
+  <phrase data="_MOD_CM_EMAIL">E-posta</phrase>
+  <phrase data="_MOD_CM_CREATED">Oluşturuldu</phrase>
+  <phrase data="_MOD_CM_PNAME">Sayfa Adı</phrase>
+  <phrase data="_MOD_CM_VIEW_P">Yorumu Göster / </phrase>
+  <phrase data="_MOD_CM_APPROVE">Onayla</phrase>
+  <phrase data="_MOD_CM_DISAPPROVE">Reddet</phrase>
+  <phrase data="_MOD_CM_NONCOMMENTS">Henüz yorum yok!</phrase>
+  <phrase data="_MOD_CM_UPDATED">Yorum yapılandırmaları güncellendi!</phrase>
+  <phrase data="_MOD_CM_NA">İşlem yapmak için yorum seçin!</phrase>
+  <phrase data="_MOD_CM_APPROVED">Seçilen yorumlar onaylandı.</phrase>
+  <phrase data="_MOD_CM_DISAPPROVED">Seçilen yorumlar onaylanmadı.</phrase>
+  <phrase data="_MOD_CM_DELETED">Seçilen yorumlar silindi.</phrase>
+  <phrase data="_MOD_CM_COMUPDATED">Yorum başarıyla güncellendi.</phrase>
+  <phrase data="_MOD_CM_HELP">Yorum Yadım</phrase>
+</language>

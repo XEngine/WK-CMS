@@ -1,0 +1,67 @@
+#gallerywrap {
+  position: relative
+}
+#gallerywrap .item {
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.075);
+  background-color: #53BD99;
+  color:#fff;
+}
+#gallerywrap .item  h3{
+  color:#fff;
+  font-weight:400;
+}
+#gallerywrap .item > a {
+  display: block;
+  line-height: 0
+}
+#gallerywrap section {
+  padding: 1.5em;
+  padding-bottom: 4em;
+  position: relative;
+}
+#gallerywrap section:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+  border: 10px solid transparent;
+}
+#gallerywrap section:before {
+  border-bottom-color: #53BD99;
+  position: absolute;
+  top: -20px;
+  left: 48%;
+  z-index: 2;
+}
+
+#gallerywrap section a.like {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: .4em 1.1em;
+  background-color: #465866;
+  text-align: center;
+}
+#gallerywrap section a.like i.icon {
+  font-size: 1.571em;
+}
+#gallerywrap section a.like.active {
+  background-color: #53bd99;
+  color: #fff;
+}
+#gallerywrap section a.like:hover {
+  color: #fff;
+}
+#gallerywrap section a.like small {
+  display: block;
+  font-size: .85em;
+}
+#gallerywrap section a.like.active small {
+  color: #fff;
+}
+.gallery-nav {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}

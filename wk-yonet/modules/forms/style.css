@@ -1,0 +1,62 @@
+#renderForm .fields {
+  background-color: rgba(233,233,225,0.7);  
+  margin-bottom:.5em;
+  border:2px dashed #ccc;
+  padding:.5em;
+  border-radius:3px;
+
+}
+#renderForm .field {
+margin-bottom:0;
+}
+#renderForm .field > label {
+  background-color: #fff;
+  text-align: center;
+  text-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  margin: 1px;
+  padding-top: .65em;
+  padding-bottom: .65em;
+}
+#renderForm .field i.icon.add.sign{
+  font-size: 2em;
+  display: block;
+  width: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  cursor:pointer;
+}
+
+.wk.items.fluid > .row > .item,
+.wk.items.fluid > .item {
+  margin: 0em 1% .5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.wk.items.fluid > .item a{
+  display:block;
+}
+#allfields{
+  min-width: 400px;
+  max-height:400px;
+  overflow-y: auto;
+}
+.placeholder2{background-color:#FFC!important;background-image:none!important;border:1px solid #FC9!important;height:42px!important}
+#removerows{
+  background-color: rgba(233,233,225,0.7);
+  padding: .65em;
+  text-align: center;
+  overflow:hidden;
+}
+#removerows.state-highlight{
+  background-color: #F0C4C1;
+}
+#removerows.state-active{
+  background-color: #BD362F;
+}

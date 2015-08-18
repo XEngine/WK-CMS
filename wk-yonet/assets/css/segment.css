@@ -1,0 +1,297 @@
+/* == Segment == */
+.wk.segment {
+  position: relative;
+  background-color: #F7F6F2;
+  -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.05);
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: .225em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wk.segment:first-child {
+  margin-top: 0
+}
+.wk.segment:last-child {
+  margin-bottom: 0
+}
+.wk.segment:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.wk.segment > :first-child {
+  margin-top: 0
+}
+.wk.segment > :last-child {
+  margin-bottom: 0
+}
+.wk.segment > .content {
+  padding: 1em
+}
+/* == Types == */
+.wk.piled.segment {
+  margin: 2em 0;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+  -ms-box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+  -o-box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.15)
+}
+.wk.piled.segment:first-child {
+  margin-top: 0
+}
+.wk.piled.segment:last-child {
+  margin-bottom: 0
+}
+.wk.piled.segment:after,
+.wk.piled.segment:before {
+  background-color: #FFF;
+  visibility: visible;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -1px;
+  position: absolute;
+  width: 100%;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.1)
+}
+.wk.piled.segment:after {
+  -webkit-transform: rotate(1.2deg);
+  -ms-transform: rotate(1.2deg);
+  transform: rotate(1.2deg);
+  top: 0;
+  z-index: -1
+}
+.wk.piled.segment:before {
+  -webkit-transform: rotate(-1.2deg);
+  -ms-transform: rotate(-1.2deg);
+  transform: rotate(-1.2deg);
+  top: 0;
+  z-index: -2
+}
+.wk.stacked.segment {
+  padding-bottom: 1.7em
+}
+.wk.stacked.segment:after,
+.wk.stacked.segment:before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.02);
+  width: 100%;
+  height: 5px;
+  visibility: visible
+}
+.wk.stacked.segment:before {
+  bottom: 0
+}
+.wk.stacked.inverted.segment:after,
+.wk.stacked.inverted.segment:before {
+  background-color: rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.35)
+}
+.wk.raised.segment {
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1)
+}
+/* == Variations == */
+.wk.basic.segment {
+  position: relative;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding:0;
+  border:0;
+}
+.wk.basic.segment:first-child {
+  padding-top: 0
+}
+.wk.basic.segment:last-child {
+  padding-bottom: 0
+}
+.wk.fitted.segment {
+  padding: 0;
+  border: 0
+}
+.wk.secondary.segment {
+  background-color: #E9E9E1;
+}
+/* == Colors == */
+.wk.info.segment .header a.link,
+.wk.positive.segment .header a.link,
+.wk.danger.segment .header a.link,
+.wk.warning.segment .header a.link,
+.wk.purple.segment .header a.link,
+.wk.teal.segment .header a.link {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.wk.info.segment .header a.link {
+  color: #3A6DA2;
+}
+.wk.positive.segment .header a.link {
+  color: #3E7558;
+}
+.wk.danger.segment .header a.link {
+  color: #FB4434;
+}
+.wk.warning.segment .header a.link {
+  color: #FEDD8C;
+}
+.wk.purple.segment .header a.link {
+  color: #7D34BA;
+}
+.wk.teal.segment .header a.link {
+  color: #2EA5A5;
+}
+.wk.info.segment .header a.link:hover,
+.wk.positive.segment .header a.link:hover,
+.wk.danger.segment .header a.link:hover,
+.wk.warning.segment .header a.link:hover,
+.wk.purple.segment .header a.link:hover,
+.wk.teal.segment .header a.link:hover {
+  color: #fff;
+  text-shadow:none;
+}
+.wk.positive.basic.segment {
+  background-color: #B2D280;
+}
+.wk.danger.basic.segment {
+  background-color: #FA5C4E
+}
+.wk.warning.basic.segment {
+  background-color: #F0B174
+}
+.wk.purple.basic.segment {
+  background-color: #8A3ECA
+}
+.wk.teal.basic.segment {
+  background-color: #3CC9CA
+}
+.wk.info.basic.segment {
+  background-color: #79C0D8
+}
+
+.wk.info.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #79C0D8;
+  border-top:0
+}
+.wk.positive.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #B2D280;
+  border-top:0
+}
+.wk.danger.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #FA5C4E;
+  border-top:0
+}
+.wk.warning.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #F0B174;
+  border-top:0
+}
+.wk.purple.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #8A3ECA;
+  border-top:0
+}
+.wk.teal.segment:not(.fitted) {
+  box-shadow: 0 -2px 0 0 #3CC9CA;
+  border-top:0
+}
+.wk.info.basic.segment,
+.wk.positive.basic.segment,
+.wk.danger.basic.segment,
+.wk.warning.basic.segment,
+.wk.purple.basic.segment,
+.wk.teal.basic.segment {
+  box-shadow:none;
+  border:0;
+  color:#fff;
+  border-radius: .225em;
+  padding:1em
+}
+.wk.info.basic.segment a,
+.wk.positive.basic.segment a,
+.wk.danger.basic.segment a,
+.wk.warning.basic.segment a,
+.wk.purple.basic.segment a,
+.wk.teal.basic.segment a {
+  color:#fff;
+  opacity:.75
+}
+/* == Aligned == */
+.wk.left.aligned.segment {
+  text-align: left
+}
+.wk.right.aligned.segment {
+  text-align: right
+}
+.wk.center.aligned.segment {
+  text-align: center
+}
+.wk.justified.segment {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto
+}
+/* == Floated == */
+.wk.floated.segment,
+.wk.left.floated.segment {
+  float: left
+}
+.wk.right.floated.segment {
+  float: right
+}
+/* == Attached == */
+.wk.segment.attached {
+  top: -1px;
+  bottom: -1px;
+  border-radius: 0;
+  margin: 0;
+  -webkit-box-shadow: 0 0 0 1px #DDD;
+  box-shadow: 0 0 0 1px #DDD
+}
+.wk.top.attached.segment {
+  top: 0;
+  bottom: -1px;
+  margin-top: 1em;
+  margin-bottom: 0;
+  border-radius: 5px 5px 0 0
+}
+.wk.segment.top.attached:first-child {
+  margin-top: 0
+}
+.wk.segment.bottom.attached {
+  top: -1px;
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  border-radius: 0 0 5px 5px
+}
+.wk.segment.bottom.attached:last-child {
+  margin-bottom: 0
+}
+/* == Loading == */
+.wk.segment.loading {
+  position: relative
+}
+.wk.segment.loading:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.8) url(../images/loader-large.gif) no-repeat 50% 50%;
+  visibility: visible;
+  z-index: 5000;
+}

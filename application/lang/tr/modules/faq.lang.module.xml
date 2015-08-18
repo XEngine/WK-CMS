@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_FAQ_A">A:</phrase>
+  <phrase data="_MOD_FAQ_ADD">Soru Ekle</phrase>
+  <phrase data="_MOD_FAQ_ADDED">Soru başarıyla eklendi!</phrase>
+  <phrase data="_MOD_FAQ_COL">Tümünü Aç</phrase>
+  <phrase data="_MOD_FAQ_DELETE">Soruyu Sil</phrase>
+  <phrase data="_MOD_FAQ_DELETE_OK">Sorum [FAQNAME] başarıyla silindi!</phrase>
+  <phrase data="_MOD_FAQ_DESC">Cevap</phrase>
+  <phrase data="_MOD_FAQ_EXP">Tümünü genişlet</phrase>
+  <phrase data="_MOD_FAQ_FAQ">F.A.Q.</phrase>
+  <phrase data="_MOD_FAQ_INFO">Buradan yeni soru ekleyebilirsiniz.</phrase>
+  <phrase data="_MOD_FAQ_INFO1">Mevcut soruları buaradan güncelleyebilirsiniz</phrase>
+  <phrase data="_MOD_FAQ_INFO3">Buradan f.a.q. modülünü yapılandırabilirsiniz. Yeniden sıralamak için öğe işaretini tıklayın ve istediğiniz konuma sürükleyin. Konum otomatik olarak güncellenecektir.</phrase>
+  <phrase data="_MOD_FAQ_NAME">Yazar Adı</phrase>
+  <phrase data="_MOD_FAQ_NOFAQS">Henüz bir soru eklemediniz</phrase>
+  <phrase data="_MOD_FAQ_POS">Konum</phrase>
+  <phrase data="_MOD_FAQ_SUBTITLE">Yeni Soru Ekleme</phrase>
+  <phrase data="_MOD_FAQ_SUBTITLE1">Soru Düzenleme / </phrase>
+  <phrase data="_MOD_FAQ_SUBTITLE3">Tüm soruları göster</phrase>
+  <phrase data="_MOD_FAQ_SUPDATED">F.A.Q. sıralaması başarıyla güncellendi!</phrase>
+  <phrase data="_MOD_FAQ_TITLE1">Soruları Düzenle</phrase>
+  <phrase data="_MOD_FAQ_TITLE2">Soru Ekle</phrase>
+  <phrase data="_MOD_FAQ_TITLE3">CMS F.A.Q. Modülünü Yönet</phrase>
+  <phrase data="_MOD_FAQ_TITLE">Soru</phrase>
+  <phrase data="_MOD_FAQ_UPDATE">Soru Güncellendi</phrase>
+  <phrase data="_MOD_FAQ_UPDATED">Soru başarıyla güncellendi!</phrase>
+  <phrase data="_MOD_FAQ_Q">Q:</phrase>
+</language>

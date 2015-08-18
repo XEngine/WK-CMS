@@ -1,0 +1,681 @@
+/* == Label == */
+.wk.label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  background-color: #EEEDE6;
+  border-color: #EEEDE6;
+  padding: .3em .5em;
+  color: inherit;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  border-radius: .325em;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wk.label:first-child {
+  margin-left: 0
+}
+.wk.label:last-child {
+  margin-right: 0
+}
+a.wk.label {
+  cursor: pointer
+}
+.wk.label a {
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.8;
+  -webkit-transition: .2s opacity ease;
+  transition: .2s opacity ease
+}
+.wk.label a:hover {
+  opacity: 1
+}
+.wk.label .detail {
+  display: inline-block;
+  margin-left: .5em;
+  font-weight: 700;
+  opacity: 0.8
+}
+.wk.label .icon {
+  width: auto;
+  font-size:1em;
+}
+/* == Removable label == */
+.wk.label .delete.icon {
+  cursor: pointer;
+  margin: 0 0 0 .5em;
+  opacity: 0.7;
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wk.label .delete.icon:hover {
+  opacity: 0.99
+}
+/* == Coupling == */
+.wk.segment > .attached.label:first-child + * {
+  margin-top: 2.5em
+}
+.wk.segment > .bottom.attached.label:first-child ~ :last-child {
+  margin-top: 0;
+  margin-bottom: 2.5em
+}
+/* == Types == */
+.wk.image.label {
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  line-height: 1.5em;
+  vertical-align: baseline;
+  text-transform: none;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1) inset
+}
+.wk.image.label img {
+  display: inline-block;
+  height: 2.25em;
+  margin: -.4em .8em -.4em -.8em;
+  vertical-align: top;
+  border-radius: .325em 0 0 .325em
+}
+/* == States == */
+.wk.label.disabled {
+  opacity: 0.5
+}
+a.wk.labels .label:hover,
+a.wk.label:hover {
+  background-color: #E4E4DA;
+  border-color: #E4E4DA;
+  color: rgba(0,0,0,0.7)
+}
+.wk.labels a.label:hover:before,
+a.wk.label:hover:before {
+  background-color: #E4E4DA;
+  color: rgba(0,0,0,0.7)
+}
+/* == Variations == */
+.wk.tag.labels .label,
+.wk.tag.label {
+  margin-left: 1em;
+  position: relative;
+  padding: .33em 1.3em .33em 1.4em;
+  border-radius: 0 3px 3px 0
+}
+.wk.tag.labels .label:before,
+.wk.tag.label:before {
+  position: absolute;
+  top: .3em;
+  left: .3em;
+  content: '';
+  margin-left: -1em;
+  background-image: none;
+  width: 1.5em;
+  height: 1.5em;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wk.tag.labels .label:after,
+.wk.tag.label:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: -.25em;
+  margin-top: -.3em;
+  background-color: #FFF;
+  width: .55em;
+  height: .55em;
+  -webkit-box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.3);
+  border-radius: 100px 100px 100px 100px
+}
+/* == Ribbon == */
+.wk.ribbon.label {
+  position: relative;
+  margin: 0 .2em;
+  left: -2rem;
+  padding-left: 2rem;
+  border-radius: 0 4px 4px 0;
+  border-color: rgba(0,0,0,0.15)
+}
+.wk.ribbon.label:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  border-top: 0 solid transparent;
+  border-right-width: 1em;
+  border-right-color: inherit;
+  border-right-style: solid;
+  border-bottom: 1em solid transparent;
+  border-left: 0 solid transparent;
+  width: 0;
+  height: 0
+}
+/* == Attached == */
+.wk.top.attached.label,
+.wk.attached.label {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: .75em 1em;
+  border-radius: .325em .325em 0 0
+}
+.wk.bottom.attached.label {
+  top: auto;
+  bottom: 0;
+  border-radius: 0 0 .325em .325em
+}
+.wk.top.left.attached.label {
+  width: auto;
+  margin-top: 0;
+  border-radius: .325em 0 .325em 0
+}
+.wk.top.right.attached.label {
+  width: auto;
+  left: auto;
+  right: 0;
+  border-radius: 0 .325em 0 .325em
+}
+.wk.bottom.left.attached.label {
+  width: auto;
+  top: auto;
+  bottom: 0;
+  border-radius: 0 .325em 0 .325em
+}
+.wk.bottom.right.attached.label {
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  width: auto;
+  border-radius: .325em 0 .325em 0
+}
+.wk.bottom.right.attached.special.label {
+  box-shadow:inset 2px 2px 0 0 rgba(0,0,0,0.15);
+ 
+}
+/* == Corner == */
+.wk.corner.label {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0;
+  text-align: center;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease
+}
+.wk.corner.label:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 0 solid transparent;
+  border-right: 2.5em solid transparent;
+  border-bottom: 2.5em solid transparent;
+  border-left: 0 solid transparent;
+  border-right-color: inherit;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease
+}
+.wk.corner.label .icon {
+  font-size: .875em;
+  margin: .5em 0 0 1.25em
+}
+.wk.corner.label .text {
+  display: inline-block;
+  font-weight: 700;
+  margin: .5em 0 0 1em;
+  width: 2.5em;
+  font-size: .875em;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+/* == Coupling == */
+.wk.rounded.image > .wk.corner.label,
+.wk.input > .wk.corner.label,
+.wk.segment > .wk.corner.label {
+  overflow: hidden
+}
+.wk.segment > .wk.corner.label {
+  top: 0;
+  right: 0
+}
+.wk.segment > .wk.left.corner.label {
+  right: auto;
+  left: -1px
+}
+.wk.input > .wk.corner.label {
+  top: 1px;
+  right: 1px
+}
+.wk.input > .wk.right.corner.label {
+  right: auto;
+  left: 1px
+}
+.wk.left.corner.label,
+.wk.left.corner.label:after {
+  right: auto;
+  left: 0
+}
+.wk.left.corner.label:after {
+  border-top: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 0 solid transparent;
+  border-top-color: inherit
+}
+.wk.left.corner.label .icon {
+  margin: .5em 0 0 -1em
+}
+.wk.left.corner.label .text {
+  margin: .5em 0 0 -1em;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
+.wk.corner.label:hover {
+  background-color: transparent
+}
+/* == Fluid == */
+.wk.label.fluid,
+.wk.fluid.labels > .label {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+/* == Colors == */
+.wk.black.labels .label,
+.wk.black.label,
+.wk.inverted.labels .label,
+.wk.inverted.label,
+.wk.ribbon .ribbon.inverted,
+.wk.ribbon .ribbon.black {
+  background-color: #5C6166;
+  border-color: #5C6166;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .black.label:before,
+.wk.black.labels .label:before,
+.wk.black.label:before {
+  background-color: #5C6166
+}
+a.wk.black.labels .label:hover,
+a.wk.black.label:hover {
+  background-color: #333;
+  border-color: #333;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.black.label:hover:before,
+.wk.black.labels a.label:hover:before,
+a.wk.black.label:hover:before {
+  background-color: #333
+}
+.wk.black.corner.label,
+.wk.black.corner.label:hover {
+  background-color: transparent
+}
+.wk.black.ribbon.label {
+  border-color: #333
+}
+.wk.positive.labels .label,
+.wk.positive.label,
+.wk.ribbon .ribbon.positive {
+  background-color: #B2D280;
+  border-color: #B2D280;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .positive.label:before,
+.wk.positive.labels .label:before,
+.wk.positive.label:before {
+  background-color: #B2D280
+}
+a.wk.positive.labels .label:hover,
+a.wk.positive.label:hover {
+  background-color: #A6CB6E;
+  border-color: #A6CB6E;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.positive.label:hover:before,
+.wk.positive.labels a.label:hover:before,
+a.wk.positive.label:hover:before {
+  background-color: #A6CB6E
+}
+.wk.positive.corner.label,
+.wk.positive.corner.label:hover {
+  background-color: transparent
+}
+.wk.positive.ribbon.label {
+  border-color: #A6CB6E
+}
+.wk.negative.labels .label,
+.wk.negative.label,
+.wk.ribbon .ribbon.negative {
+  background-color: #FA5C4E;
+  border-color: #FA5C4E;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .negative.label:before,
+.wk.negative.labels .label:before,
+.wk.negative.label:before {
+  background-color: #FA5C4E
+}
+.wk.negative.corner.label,
+.wk.negative.corner.label:hover {
+  background-color: transparent
+}
+a.wk.negative.labels .label:hover,
+a.wk.negative.label:hover {
+  background-color: #FB4434;
+  border-color: #FB4434;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.negative.label:hover:before,
+.wk.negative.labels a.label:hover:before,
+a.wk.negative.label:hover:before {
+  background-color: #FB4434
+}
+.wk.negative.ribbon.label {
+  border-color: #FB4434
+}
+.wk.info.labels .label,
+.wk.info.label,
+.wk.ribbon .ribbon.info {
+  background-color: #79C0D8;
+  border-color: #79C0D8;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .info.label:before,
+.wk.info.labels .label:before,
+.wk.info.label:before {
+  background-color: #79C0D8
+}
+a.wk.info.labels .label:hover,
+.wk.info.labels a.label:hover,
+a.wk.info.label:hover {
+  background-color: #66B7D2;
+  border-color: #66B7D2;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.info.label:hover:before,
+.wk.info.labels a.label:hover:before,
+a.wk.info.label:hover:before {
+  background-color: #66B7D2
+}
+.wk.info.corner.label,
+.wk.info.corner.label:hover {
+  background-color: transparent
+}
+.wk.info.ribbon.label {
+  border-color: #66B7D2
+}
+.wk.purple.labels .label,
+.wk.purple.label,
+.wk.ribbon .ribbon.purple {
+  background-color: #8A3ECA;
+  border-color: #8A3ECA;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .purple.label:before,
+.wk.purple.labels .label:before,
+.wk.purple.label:before {
+  background-color: #8A3ECA
+}
+a.wk.purple.labels .label:hover,
+.wk.purple.labels a.label:hover,
+a.wk.purple.label:hover {
+  background-color: #7D34BA;
+  border-color: #7D34BA;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.purple.label:hover:before,
+.wk.purple.labels a.label:hover:before,
+a.wk.purple.label:hover:before {
+  background-color: #7D34BA
+}
+.wk.purple.corner.label,
+.wk.purple.corner.label:hover {
+  background-color: transparent
+}
+.wk.purple.ribbon.label {
+  border-color: #7D34BA
+}
+.wk.warning.labels .label,
+.wk.warning.label,
+.wk.ribbon .ribbon.warning {
+  background-color: #F0B174;
+  border-color: #F0B174;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .warning.label:before,
+.wk.warning.labels .label:before,
+.wk.warning.label:before {
+  background-color: #F0B174
+}
+a.wk.warning.labels .label:hover,
+.wk.warning.labels a.label:hover,
+a.wk.warning.label:hover {
+  background-color: #EEA45D;
+  border-color: #EEA45D;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.warning.label:hover:before,
+.wk.warning.labels a.label:hover:before,
+a.wk.warning.label:hover:before {
+  background-color: #EEA45D
+}
+.wk.warning.corner.label,
+.wk.warning.corner.label:hover {
+  background-color: transparent
+}
+.wk.warning.ribbon.label {
+  border-color: #EEA45D
+}
+.wk.teal.labels .label,
+.wk.teal.label,
+.wk.ribbon .ribbon.teal {
+  background-color: #3CC9CA;
+  border-color: #3CC9CA;
+  color: rgba(255,255,255,0.80)
+}
+.wk.labels .teal.label:before,
+.wk.teal.labels .label:before,
+.wk.teal.label:before {
+  background-color: #3CC9CA
+}
+a.wk.teal.labels .label:hover,
+.wk.teal.labels a.label:hover,
+a.wk.teal.label:hover {
+  background-color: #2EA5A5;
+  border-color: #2EA5A5;
+  color: rgba(255,255,255,1)
+}
+.wk.labels a.teal.label:hover:before,
+.wk.teal.labels a.label:hover:before,
+a.wk.teal.label:hover:before {
+  background-color: #2EA5A5
+}
+.wk.teal.corner.label,
+.wk.teal.corner.label:hover {
+  background-color: transparent
+}
+.wk.teal.ribbon.label {
+  border-color: #2EA5A5
+}
+/* == Horizontal == */
+.wk.horizontal.labels .label,
+.wk.horizontal.label {
+  margin: -.125em .5em -.125em 0;
+  padding: .35em 1em;
+  min-width: 6em;
+  text-align: center
+}
+/* == Circular == */
+.wk.circular.labels .label,
+.wk.circular.label {
+  min-height: 1em;
+  max-height: 2em;
+  padding: .5em;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 500rem
+}
+/* == Pointing == */
+.wk.pointing.label {
+  position: relative
+}
+.wk.attached.pointing.label {
+  position: absolute
+}
+.wk.pointing.label:before {
+  position: absolute;
+  content: "";
+  width: .6em;
+  height: .6em;
+  background-image: none;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: 2;
+  -webkit-transition: background .1s linear;
+  transition: background .1s linear
+}
+.wk.pointing.label:before {
+  background-color: #E8E8E8
+}
+.wk.pointing.label,
+.wk.pointing.above.label {
+  margin-top: 1em
+}
+.wk.pointing.label:before,
+.wk.pointing.above.label:before {
+  margin-left: -.3em;
+  top: -.3em;
+  left: 50%
+}
+.wk.pointing.below.label {
+  margin-top: 0;
+  margin-bottom: 1em
+}
+.wk.pointing.below.label:before {
+  margin-left: -.3em;
+  top: auto;
+  right: auto;
+  bottom: -.3em;
+  left: 50%
+}
+.wk.pointing.left.label {
+  margin-top: 0;
+  margin-left: 1em
+}
+.wk.pointing.left.label:before {
+  margin-top: -.3em;
+  bottom: auto;
+  right: auto;
+  top: 50%;
+  left: 0
+}
+.wk.pointing.right.label {
+  margin-top: 0;
+  margin-right: 1em
+}
+.wk.pointing.right.label:before {
+  margin-top: -.3em;
+  right: -.3em;
+  top: 50%;
+  bottom: auto;
+  left: auto
+}
+/* == Floating == */
+.wk.floating.label {
+  position: absolute;
+  z-index: 100;
+  top: -1em;
+  left: 100%;
+  margin: 0 0 0 -1.5em
+}
+/* == Ribbons == */
+.wk.ribbon {
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 85px;
+}
+.wk.ribbon .ribbon:before {
+  bottom: -1px;
+  left: 0;
+}
+.wk.ribbon .ribbon:after {
+  right: 0;
+}
+.wk.ribbon .ribbon:before, 
+.wk.ribbon .ribbon:after {
+  border-left: 2px solid rgba(0, 0, 0, 0);
+  border-right: 2px solid rgba(0, 0, 0, 0);
+  border-top: 2px solid #797979;
+  bottom: -2px;
+  content: "";
+  position: absolute;
+}
+.wk.ribbon .ribbon {
+  background-color: #797979;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  display: block;
+  font-size:.95em;
+  font-weight: 600;
+  left: -5px;
+  line-height: 20px;
+  padding: 7px 0;
+  position: relative;
+  text-align: center;
+  top: 15px;
+  transform: rotate(45deg);
+  width: 120px;
+}
+/* == Sizes == */
+.wk.small.labels .label,
+.wk.small.label {
+  font-size:.75rem;
+  line-height:.75rem
+}
+.wk.label {
+  font-size:.95rem;
+  line-height:.95rem
+}
+.wk.large.labels .label,
+.wk.large.label {
+  font-size:1rem;
+  line-height:1rem
+}
+.wk.huge.labels .label,
+.wk.huge.label {
+  font-size: 1.1rem;
+  line-height:1.1rem
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_MM_TITLE1">Menüleri Güncelle</phrase>
+  <phrase data="_PLG_MM_INFO1">Menülerinizi buradan yönetebilirsiniz.</phrase>
+  <phrase data="_PLG_MM_SUBTITLE1">Menü Düzenleme / </phrase>
+  <phrase data="_PLG_MM_TITLE">Menü Başlığı</phrase>
+  <phrase data="_PLG_MM_PUB">Menü Yayınlandı</phrase>
+  <phrase data="_PLG_MM_BODY">Sekme Gövdesi</phrase>
+  <phrase data="_PLG_MM_UPDATE">Menü Güncelle</phrase>
+  <phrase data="_PLG_MM_TITLE2">Menü Ekle</phrase>
+  <phrase data="_PLG_MM_INFO2">Buradan Menü ekleyebilirsiniz</phrase>
+  <phrase data="_PLG_MM_SUBTITLE2">Menü Ekleme</phrase>
+  <phrase data="_PLG_MM_ADD">Menü Ekle</phrase>
+  <phrase data="_PLG_MM_TITLE3">Menüleri Yönet</phrase>
+  <phrase data="_PLG_MM_INFO3">Menüğleri yapılandırabilirsiniz.Yeniden sıralamak ve konumlandırmak için öğelere tıklayın ve sürükleyin. Konum ayarları otomatik olarak güncellenecektir.</phrase>
+  <phrase data="_PLG_MM_SUBTITLE3">Tüm Menüleri Görüntüle</phrase>
+  <phrase data="_PLG_MM_POS">Konum</phrase>
+  <phrase data="_PLG_MM_TAB">Menü</phrase>
+  <phrase data="_PLG_MM_NOTABS">Henüz bir menü oluşturmadınız. Lütfen menü ekleyin!</phrase>
+  <phrase data="_PLG_MM_UPDATED">Menü başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_MM_ADDED">Menü başarıyla eklendi!</phrase>
+</language>

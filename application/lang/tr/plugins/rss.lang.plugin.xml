@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_RSS_TITLE1">CMS RSS Ayrıştırıcısını Yönet</phrase>
+  <phrase data="_PLG_RSS_INFO1">Rss yapılandırmasını buradan yapabilirsiniz.</phrase>
+  <phrase data="_PLG_RSS_SUBTITLE1">Yapılandırma Ayarlarını Düzenle</phrase>
+  <phrase data="_PLG_RSS_URL">RSS için URL</phrase>
+  <phrase data="_PLG_RSS_URL_T"> http:// ile başlayan geçerli ve tam bir URL bağlantısı girin</phrase>
+  <phrase data="_PLG_RSS_TITLETRIM">Başlığı Kısalt</phrase>
+  <phrase data="_PLG_RSS_TITLETRIM_T">Başlığın kaç karakterden sonra kısaltılmasını belirleyebilirsiniz. Kısaltmak istemiyorsanız sıfırı (0) seçin</phrase>
+  <phrase data="_PLG_RSS_SHOW_BODY">Özet Göster</phrase>
+  <phrase data="_PLG_RSS_BODYTRIM">Özeti Kısalt</phrase>
+  <phrase data="_PLG_RSS_BODYTRIM_T">Özetin kaç karakterden sonra kısaltılmasını belirleyebilirsiniz. Kısaltmak istemiyorsanız sıfırı (0) seçin</phrase>
+  <phrase data="_PLG_RSS_SHOW_DATE">Tarih Göster</phrase>
+  <phrase data="_PLG_RSS_DATEFORMAT">Tarih Formatı</phrase>
+  <phrase data="_PLG_RSS_DATE_T">--- Tarih Formatını Seçin ---</phrase>
+  <phrase data="_PLG_RSS_ITEMS">Toplam Öğe</phrase>
+  <phrase data="_PLG_RSS_ITEMS_T">Görüntülenen öğe sayısı</phrase>
+  <phrase data="_PLG_RSS_UPDATE">Ayarlar Güncellendi</phrase>
+  <phrase data="_PLG_RSS_UPDATED">Rss ayarları başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_RSS_HELP">Rss Yardım</phrase>
+</language>

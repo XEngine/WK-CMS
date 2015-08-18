@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_TW_TITLE1">CMS Twitt Eklentisini Yönet</phrase>
+  <phrase data="_PLG_TW_INFO1">Twitter eklenti yapılandırmasını buradan yapabilirsiniz.</phrase>
+  <phrase data="_PLG_TW_SUBTITLE1">Yapılandırma Ayaları Düzenleme</phrase>
+  <phrase data="_PLG_TW_USER">Kullanıcı Adınız</phrase>
+  <phrase data="_PLG_TW_USER_T">Twitter kullanıcı adınız</phrase>
+  <phrase data="_PLG_TW_KEY">Müşteri Numaranız/Müşteri Anahtarı</phrase>
+  <phrase data="_PLG_TW_KEY_T">Kullanıcı numaranız, Kullanıcı parolanız ve kullanıcı izniniz Twitter uygulama ayarlarında bulunamadı.</phrase>
+  <phrase data="_PLG_TW_SECRET">Kullanıcı Şifresi</phrase>
+  <phrase data="_PLG_TW_TOKEN">Geçiş İzni</phrase>
+  <phrase data="_PLG_TW_TSECRET">Geçiş İzni Parolası</phrase>
+  <phrase data="_PLG_TW_COUNT">Twitter Sayacı</phrase>
+  <phrase data="_PLG_TW_COUNT_T">Gösterilen Tweet sayısı</phrase>
+  <phrase data="_PLG_TW_TRANS">Geçiş Hızı</phrase>
+  <phrase data="_PLG_TW_TRANS_T">Geçiş hızı milisaniye olarak belirlenir. 1000 Milisaniye = 1 dakika</phrase>
+  <phrase data="_PLG_TW_SHOW_IMG">Profil Resmini Göster</phrase>
+  <phrase data="_PLG_TW_SHOW_IMG_T">Profil resmini göster ya da gizle</phrase>
+  <phrase data="_PLG_TW_TRANS_T">Geçiş için Zamanaşımı</phrase>
+  <phrase data="_PLG_TW_TRANS_TT">Zamanaşımı geçiş hızı milisaniye olarak belirlenir. 1000 Milisaniye = 1 dakika</phrase>
+  <phrase data="_PLG_TW_UPDATE">Ayarları Güncelle</phrase>
+  <phrase data="_PLG_TW_UPDATED">Twitter ayarları başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_TW_HELP">Twitter Yardımı</phrase>
+</language>

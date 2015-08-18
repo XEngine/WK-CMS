@@ -1,0 +1,132 @@
+/* == Images == */
+.wk.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+img.wk.image {
+  background: none;
+}
+.wk.image .caption {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: .8em;
+  font-family: 'Open Sans Condensed';
+  text-align: center;
+  box-shadow: inset 0 1px 0 0 #fff;
+  position: relative;
+}
+.wk.image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+  border: 0
+}
+/* == State == */
+.wk.disabled.image {
+  cursor: default;
+  opacity: 0.3;
+}
+/* == Variations == */
+.wk.basic.image {
+  box-shadow: none;
+}
+.wk.rounded.images .image,
+.wk.rounded.images img,
+.wk.rounded.image img,
+.wk.rounded.image {
+  border-radius: 0.3125em;
+}
+.wk.circular.images .image,
+.wk.circular.images img,
+.wk.circular.image img,
+.wk.circular.image {
+  border-radius: 500rem;
+}
+.wk.fluid.images,
+.wk.fluid.image,
+.wk.fluid.images img,
+.wk.fluid.image img {
+  display: block;
+  width: 100%;
+}
+.wk.avatar.images .image,
+.wk.avatar.images img,
+.wk.avatar.image img,
+.wk.avatar.image {
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 500rem;
+}
+.wk.floated.image,
+.wk.floated.images {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.wk.right.floated.images,
+.wk.right.floated.image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+/* == Size == */
+.wk.tiny.images .image,
+.wk.tiny.images img,
+.wk.tiny.image {
+  width: 20px;
+  font-size: 0.7rem;
+}
+.wk.mini.images .image,
+.wk.mini.images img,
+.wk.mini.image {
+  width: 35px;
+  font-size: 0.8rem;
+}
+.wk.small.images .image,
+.wk.small.images img,
+.wk.small.image {
+  width: 80px;
+  font-size: 0.9rem;
+}
+.wk.normal.images .image,
+.wk.normal.images img,
+.wk.normal.image {
+  width: 150px;
+  font-size: 0.9rem;
+}
+.wk.medium.images .image,
+.wk.medium.images img,
+.wk.medium.image {
+  width: 300px;
+  font-size: 1rem;
+}
+.wk.large.images .image,
+.wk.large.images img,
+.wk.large.image {
+  width: 450px;
+  font-size: 1.1rem;
+}
+.wk.huge.images .image,
+.wk.huge.images img,
+.wk.huge.image {
+  width: 600px;
+  font-size: 1.2rem;
+}
+/* == Groups == */
+.wk.images {
+  font-size: 0em;
+  margin: 0em -0.25rem 0rem;
+}
+.wk.images .image,
+.wk.images img {
+  display: inline-block;
+  margin: 0em 0.25em 0.5em;
+}

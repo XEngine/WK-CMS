@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_ES_ADDED">Görüntü başarıyla eklendi!</phrase>
+  <phrase data="_PLG_ES_ADDSLIDE">Slayt Ekle</phrase>
+  <phrase data="_PLG_ES_ANITYPE">Hareket Tipi</phrase>
+  <phrase data="_PLG_ES_ANITYPE_C">Merkez</phrase>
+  <phrase data="_PLG_ES_ANITYPE_S">Kenarlar</phrase>
+  <phrase data="_PLG_ES_ANITYPE_T">Kenarlar: Yeni slaytlar sağdan ya da soldan hareket edecek. Merkez: Yeni slayt merkezde görünecek.</phrase>
+  <phrase data="_PLG_ES_AUTOPLAY">Otomatik Oynatma</phrase>
+  <phrase data="_PLG_ES_AUTOPLAY_T">Otomatik oynatmayı "evet" olarak işaretlerseniz yalnızca kullanıcı küçük resmime tıkladığında duracaktır.</phrase>
+  <phrase data="_PLG_ES_BUT_CONF_U">Yapılandırmayı Güncelle</phrase>
+  <phrase data="_PLG_ES_CAPTION">Resim Başlığı</phrase>
+  <phrase data="_PLG_ES_CAPTION_R">Lütfen bir resim başlığı ekleyin</phrase>
+  <phrase data="_PLG_ES_CONF">Yapılandırma</phrase>
+  <phrase data="_PLG_ES_CONF_UPDATED">Yapılandırma başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_ES_DESC">Resim Açıklaması</phrase>
+  <phrase data="_PLG_ES_FILE_ERR">Dosya geçici klasörden resim klasörüne taşınamadı.</phrase>
+  <phrase data="_PLG_ES_HEIGHT">Resim Yüksekliği</phrase>
+  <phrase data="_PLG_ES_HEIGHT_T">Görüntü pikselleri için maksimum yükseklik</phrase>
+  <phrase data="_PLG_ES_HELP">Elastik slider yardımı</phrase>
+  <phrase data="_PLG_ES_IMG_SEL">Görüntü seçin</phrase>
+  <phrase data="_PLG_ES_IMGPR">Resim Önizleme</phrase>
+  <phrase data="_PLG_ES_IMG_SEL_R">Seçmiş olduğunuz dosya geçersiz. Yalnızca jpg ve png format seçiniz.</phrase>
+  <phrase data="_PLG_ES_IMGFILE">Resim Dosyası</phrase>
+  <phrase data="_PLG_ES_INFO1">Yeni slaytı buaradan ekleyebilirsiniz.</phrase>
+  <phrase data="_PLG_ES_INFO2">Mevcut slaytınızı buradan güncelleyebilirsiniz.</phrase>
+  <phrase data="_PLG_ES_INFO3">Görüntü slayt eklentisini buradan yapılandırabilirsiniz. Yeniden sıralandırmak için hangi pozisyona gelmesini istiyorsanız oraya tıklayın ya da sürükleyin. Konum otomatik olarak güncellenecektir.</phrase>
+  <phrase data="_PLG_ES_INFO4">Slider yapılandırmalarınızı buradan güncelleyebilirsiniz.</phrase>
+  <phrase data="_PLG_ES_INTERVAL">Sıklık</phrase>
+  <phrase data="_PLG_ES_INTERVAL_T">Slideshow sıklığı milisaniye olarak ayarlanır. 1 saniye = 1000 milisaniye.</phrase>
+  <phrase data="_PLG_ES_NOIMG">Henüz bir slayt yok. Lütfen ekleyiniz.</phrase>
+  <phrase data="_PLG_ES_POS">Konum</phrase>
+  <phrase data="_PLG_ES_SLIDE">Slayt Resmi</phrase>
+  <phrase data="_PLG_ES_SPEED">Hız</phrase>
+  <phrase data="_PLG_ES_SPEED_T">Slayt hareket hızı milisaniye olarak ayarlanır. 1 saniye = 1000 milisaniye</phrase>
+  <phrase data="_PLG_ES_SUBTITLE1">Slayt Ekleniyor</phrase>
+  <phrase data="_PLG_ES_SUBTITLE2">Slayt Düzenleniyor / </phrase>
+  <phrase data="_PLG_ES_SUBTITLE3">Tüm Slaytları Görüntüle</phrase>
+  <phrase data="_PLG_ES_SUBTITLE4">Slider Yapılandırma</phrase>
+  <phrase data="_PLG_ES_SUPDATED">Slayt sıralaması başarıyla güncellendi!</phrase>
+  <phrase data="_PLG_ES_THUMB">Küçük Resim Genişliği</phrase>
+  <phrase data="_PLG_ES_THUMB_T">Küçük resim için maksimum genişlik</phrase>
+  <phrase data="_PLG_ES_TITLE">CMS Elastik Slider Eklentisini Yönet</phrase>
+  <phrase data="_PLG_ES_TITLE1">Slayt Ekle</phrase>
+  <phrase data="_PLG_ES_TITLE2">Slayt Düzenle</phrase>
+  <phrase data="_PLG_ES_TITLESPEED">Başlık Hızı</phrase>
+  <phrase data="_PLG_ES_TITLESPEED_T">Başlık Hareket hızı milisaniye olarak ayarlanır.1 saniye = 1000 milisaniye</phrase>
+  <phrase data="_PLG_ES_UPDATE">Slaytı Güncelle</phrase>
+  <phrase data="_PLG_ES_UPDATED">Slayt Başarıyla Güncellendi!</phrase>
+</language>

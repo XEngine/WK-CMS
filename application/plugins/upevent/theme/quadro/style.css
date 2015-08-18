@@ -1,0 +1,37 @@
+#countevent {
+  margin-right: auto;
+  margin-left: auto
+}
+#countevent .dash {
+  width: 25%;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  background-color: #E14D43;
+  border-radius: .35em;
+  color: #fff;
+  float: left;
+  box-shadow: inset 1px 0 0 0 rgba(255,255,255,0.25), inset 0 -4px 0 0 rgba(255,255,255,0.25);
+}
+#countevent .dash .digit {
+  height: 70px;
+  font-size: 3.286em;
+  font-weight: 600;
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+#countevent .dash .first {
+  text-align: right
+}
+#countevent .dash .last {
+  text-align: left
+}
+#countevent .dash_title {
+  display: block;
+  font-size: .85em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}

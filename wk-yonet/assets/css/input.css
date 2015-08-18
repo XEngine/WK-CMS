@@ -1,0 +1,214 @@
+/* == Inputs == */
+.wk.input {
+  display: inline-block;
+  position: relative;
+  color: rgba(0,0,0,0.7)
+}
+.wk.input input {
+  width: 100%;
+  font-family: inherit;
+  margin: 0;
+  padding: .85em 1.2em;
+  font-size: .85rem;
+  background-color: #FFF;
+  border: 1px solid rgba(0,0,0,0.15);
+  outline: none;
+  color: rgba(0,0,0,0.7);
+  border-radius: .3125em;
+  -webkit-transition: background-color .3s ease-out, 0 .2s ease, border-color .2s ease;
+  transition: background-color .3s ease-out, box-shadow .2s ease, border-color .2s ease;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+ 
+.wk.input.top.attached input {
+  border-radius: .3125em .3125em 0 0;
+}
+/* == Placeholder == */
+.wk.input::-webkit-input-placeholder {
+color:#BBB
+}
+ .wk.input::-moz-placeholder {
+color:#BBB
+}
+/* == States == */
+.wk.input input:active,
+.wk.input.down input {
+  border-color: rgba(0,0,0,0.3);
+  background-color: #FAFAFA
+}
+/* == Loading == */
+.wk.loading.input > .icon {
+  background: url(../images/loader-mini.gif) no-repeat 50% 50%
+}
+.wk.loading.input > .icon:before,
+.wk.loading.input > .icon:after {
+  display: none
+}
+/* == Focus == */
+.wk.input.focus input,
+.wk.input input:focus {
+  border-color: rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.85)
+}
+.wk.input.focus input input::-webkit-input-placeholder, 
+.wk.input input:focus input::-webkit-input-placeholder {
+  color:#AAA
+}
+.wk.input.focus input input::-moz-placeholder, 
+.wk.input input:focus input::-moz-placeholder {
+  color:#AAA
+}
+/* == Error == */
+.wk.input.error input {
+  background-color: #FFFAFA;
+  border-color: #E7BEBE;
+  color: #D95C5C
+}
+ .wk.input.error input ::-webkit-input-placeholder {
+color:rgba(255,80,80,0.4)
+}
+ .wk.input.error input ::-moz-placeholder {
+color:rgba(255,80,80,0.4)
+}
+ .wk.input.error input :focus::-webkit-input-placeholder {
+color:rgba(255,80,80,0.7)
+}
+ .wk.input.error input :focus::-moz-placeholder {
+color:rgba(255,80,80,0.7)
+}
+.wk.transparent.input input {
+  border: none;
+  background-color: transparent
+}
+.wk.inverted.input input {
+  background-color: #E9E9E1;
+  border:0;
+  box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.15) inset;
+}
+/* == Icon == */
+.wk.icon.input > .icon {
+  cursor: default;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 2.6em;
+  height: 100%;
+  padding-top:1.1em;
+  text-align: center;
+  border-radius: 0 .3125em .3125em 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: opacity .3s ease-out;
+  transition: opacity .3s ease-out
+}
+.wk.icon.input > .link.icon {
+  cursor: pointer
+}
+.wk.icon.input input {
+  padding-right: 3em
+}
+.wk.icon.input > .circular.icon {
+  top: .35em;
+  right: .5em
+}
+.wk.left.icon.input > .icon {
+  right: auto;
+  left: 1px;
+  border-radius: .3125em 0 0 .3125em
+}
+.wk.left.icon.input > .circular.icon {
+  right: auto;
+  left: .5em
+}
+.wk.left.icon.input > input {
+  padding-left: 3em;
+  padding-right: 1.2em
+}
+.wk.icon.input > input:focus ~ .icon {
+  opacity: 1
+}
+/* == Labeled == */
+.wk.labeled.input .corner.label {
+  font-size: .7em;
+  border-top-right-radius: .3125em
+}
+.wk.labeled.input input {
+  padding-right: 2.5em
+}
+.wk.labeled.icon.input:not(.left) > input {
+  padding-right: 3.25em
+}
+.wk.labeled.icon.input:not(.left) > .icon {
+  margin-right: 1.25em
+}
+/* == Action == */
+.wk.action.input {
+  display: table
+}
+.wk.action.input > input {
+  display: table-cell;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none
+}
+.wk.action.input > .button,
+.wk.action.input > .buttons {
+  display: table-cell;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  white-space: nowrap;
+  background-color: #C6C6BF;
+}
+.wk.action.input > .button:hover,
+.wk.action.input > .buttons:hover {
+ opacity:.75
+}
+.wk.action.input > .button > .icon,
+.wk.action.input > .buttons > .button > .icon {
+  display: inline;
+  vertical-align: top
+}
+.wk.fluid.action.input {
+  display: table;
+  width: 100%
+}
+.wk.fluid.action.input > .button {
+  width: .01%
+}
+/* == Fluid == */
+.wk.fluid.input {
+  display: block
+}
+/* == Size == */
+.wk.small.form .icon.input > .icon{
+  padding-top: .95em;
+}
+.wk.mini.input {
+font-size:.8125rem
+}
+.wk.small.input {
+font-size:.875rem
+}
+.wk.input {
+  font-size: 1rem
+}
+.wk.large.input {
+  font-size: 1.125rem
+}
+.wk.big.input {
+  font-size: 1.25rem
+}
+.wk.huge.input {
+  font-size: 1.375rem
+}
+.wk.massive.input {
+  font-size: 1.5rem
+}

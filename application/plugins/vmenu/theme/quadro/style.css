@@ -1,0 +1,59 @@
+#acomenu li,
+#acomenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+#acomenu li {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 1px 0 0 #FFFFFF;
+  display: block;
+  position: relative
+}
+#acomenu li a {
+  display: inline-block;
+  position: relative;
+  padding: .55em 0
+}
+#acomenu li a small {
+  display: none
+}
+#acomenu li a > i.icon {
+  margin-right:.5em;
+}
+#acomenu .menu-submenu {
+  display: none;
+  top: 0
+}
+#acomenu .menu-submenu li {
+  border-bottom: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  box-shadow: none;
+  position: relative;
+  background-color: rgba(0,0,0,0.05)
+}
+#acomenu .menu-submenu li a {
+  padding: 8px 25px
+}
+#acomenu .menu-submenu li ul li {
+  background-color: rgba(0,0,0,0.1)
+}
+#acomenu .menu-submenu li ul li a {
+  padding: 8px 45px
+}
+#acomenu .menu-submenu li ul li ul li {
+  background-color: rgba(0,0,0,0.15)
+}
+#acomenu .menu-submenu li ul li ul li a {
+  padding: 8px 65px
+}
+#acomenu i.icon.down.arrow {
+  position: absolute;
+  right: 0;
+  display: block;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
