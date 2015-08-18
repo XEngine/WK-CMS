@@ -232,13 +232,13 @@
           <small>Slayt içerisinde, slayt elementlerini sayfalandıran küçük önizleme resimlerini belirler.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="1" <?php echo getChecked($row->thumbnailNavigation, "always");?>>
+              <input name="thumbnailNavigation" type="radio" value="1" <?php echo getChecked($row->thumbnailNavigation, "always");?>>
               <i></i>Sürekli Göster</label>
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="2" <?php echo getChecked($row->thumbnailNavigation, "hover");?>>
+              <input name="thumbnailNavigation" type="radio" value="2" <?php echo getChecked($row->thumbnailNavigation, "hover");?>>
               <i></i>Hover Durumunda Göster</label>
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="0" <?php echo getChecked($row->thumbnailNavigation, "disabled");?>>
+              <input name="thumbnailNavigation" type="radio" value="0" <?php echo getChecked($row->thumbnailNavigation, "disabled");?>>
               <i></i>Devre Dışı</label>
           </div>
         </div>
@@ -261,16 +261,16 @@
           <small>Slayt içerisine YouTube video'su embed yapıldıysa önizleme resmini seçiniz.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="1" <?php echo getChecked($row->youtubePreview, "maxresdefault.jpg");?>>
+              <input name="youtubePreview" type="radio" value="1" <?php echo getChecked($row->youtubePreview, "maxresdefault.jpg");?>>
               <i></i>En İyi Çözünürlük</label>
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="2" <?php echo getChecked($row->youtubePreview, "hqdefault.jpg");?>>
+              <input name="youtubePreview" type="radio" value="2" <?php echo getChecked($row->youtubePreview, "hqdefault.jpg");?>>
               <i></i>Kaliteli Çözünürlük</label>
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="0" <?php echo getChecked($row->youtubePreview, "mqdefault.jpg");?>>
+              <input name="youtubePreview" type="radio" value="0" <?php echo getChecked($row->youtubePreview, "mqdefault.jpg");?>>
               <i></i>Düşük Çözünürlük</label>
             <label class="radio">
-              <input name="timeIndicator" type="radio" value="0" <?php echo getChecked($row->youtubePreview, "default.jpg");?>>
+              <input name="youtubePreview" type="radio" value="0" <?php echo getChecked($row->youtubePreview, "default.jpg");?>>
               <i></i>Standart</label>
           </div>
           <p>Bazı videolar standart çözünürlük dışındaki diğer çözünürlüğü desteklemiyor olabilir. Standart seçmeniz önerilir.</p>
