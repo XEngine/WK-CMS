@@ -40,82 +40,157 @@
           </label>
         </div>
       </div>
+      <div class="wk divider"></div>
       <div class="three fields">
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_NAVTYPE;?></label>
+          <label>Otomatik Başlat</label>
+          <small>Slayt, sayfa yüklendiğinde otomatik başlayıp başlamayacağını belirler.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="navtype" type="radio" value="thumbs" <?php echo getChecked($row->navtype, "thumbs");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVTYPE_1;?></label>
+              <input name="autoStart" type="radio" value="1" <?php echo getChecked($row->autoStart, "1");?>>
+              <i></i>Evet</label>
             <label class="radio">
-              <input name="navtype" type="radio" value="dots" <?php echo getChecked($row->navtype, "dots");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVTYPE_2;?></label>
-            <label class="radio">
-              <input name="navtype" type="radio" value="false" <?php echo getChecked($row->navtype, "false");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVTYPE_3;?></label>
+              <input name="autoStart" type="radio" value="0" <?php echo getChecked($row->autoStart, "0");?>>
+              <i></i>Hayır</label>
           </div>
         </div>
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_NAVPOS;?></label>
+          <label>Mobil Cihazlarda Göster</label>
+          <small>Slayt, Mobil Cihazlardan girildiğinde devredışı kalmasını belirler.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="navpos" type="radio" value="top" <?php echo getChecked($row->navpos, "top");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVPOS_1;?></label>
+              <input name="hideOnMobile" type="radio" value="1" <?php echo getChecked($row->hideOnMobile, "1");?>>
+              <i></i>Devre dışı</label>
             <label class="radio">
-              <input name="navpos" type="radio" value="bottom" <?php echo getChecked($row->navpos, "bottom");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVPOS_2;?></label>
+              <input name="hideOnMobile" type="radio" value="0" <?php echo getChecked($row->hideOnMobile, "0");?>>
+              <i></i>Etkin</label>
           </div>
         </div>
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_NAVPLACE;?></label>
+          <label>Esneklik</label>
+          <small>Slaytın tüm cihazlara göre otomatik boyutlandırmasını belirler.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="navplace" type="radio" value="innernav" <?php echo getChecked($row->navplace, "innernav");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVPLACE_1;?></label>
+              <input name="responsive" type="radio" value="1" <?php echo getChecked($row->responsive, "1");?>>
+              <i></i>Esnek</label>
             <label class="radio">
-              <input name="navplace" type="radio" value="outer" <?php echo getChecked($row->navplace, "outer");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_NAVPLACE_2;?></label>
+              <input name="responsive" type="radio" value="0" <?php echo getChecked($row->responsive, "0");?>>
+              <i></i>Statik</label>
           </div>
         </div>
       </div>
       <div class="three fields">
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_ARROWS;?></label>
+          <label>Animasyonlu İlk Gösterim</label>
+          <small>Sayfa yüklendikten hemen sonra gelecek ilk slaytın animasyonlu olup olmayacağını belirler(Düşük perfomanslı cihazlar için statik seçilmesi önerilir)</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="navarrows" type="radio" value="1" <?php echo getChecked($row->navarrows, 1);?>>
-              <i></i><?php echo Lang::$word->_YES;?></label>
+              <input name="animateFirstSlide" type="radio" value="1" <?php echo getChecked($row->animateFirstSlide, "1");?>>
+              <i></i>Animasyonlu</label>
             <label class="radio">
-              <input name="navarrows" type="radio" value="0" <?php echo getChecked($row->navarrows, 0);?>>
-              <i></i><?php echo Lang::$word->_NO;?></label>
+              <input name="animateFirstSlide" type="radio" value="0" <?php echo getChecked($row->animateFirstSlide, "0");?>>
+              <i></i>Statik</label>
           </div>
         </div>
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_RESMETHOD;?></label>
+          <label>Mouse Üzerine Gelindiğinde Durdur</label>
+          <small>Mouse, Slayt'ın üzerine geldiğinde slayt'ın kaymasını durdur.</small><br/><br/>
           <div class="inline-group">
             <label class="radio">
-              <input name="fit" type="radio" value="contain" <?php echo getChecked($row->fit, "contain");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_RESMETHOD_1;?></label>
+              <input name="pauseOnHover" type="radio" value="1" <?php echo getChecked($row->pauseOnHover, "1");?>>
+              <i></i>Evet</label>
             <label class="radio">
-              <input name="fit" type="radio" value="cover" <?php echo getChecked($row->fit, "cover");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_RESMETHOD_2;?></label>
-            <label class="radio">
-              <input name="fit" type="radio" value="scaledown" <?php echo getChecked($row->fit, "scaledown");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_RESMETHOD_3;?></label>
-            <label class="radio">
-              <input name="fit" type="radio" value="none" <?php echo getChecked($row->fit, "none");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_RESMETHOD_4;?></label>
+              <input name="pauseOnHover" type="radio" value="0" <?php echo getChecked($row->pauseOnHover, "0");?>>
+              <i></i>Hayır</label>
           </div>
         </div>
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_FULLSCREEN;?></label>
+          <label>Rastgele</label>
+          <small>Slayt sırasını yoksayar ve slayt listesini rastgele göstermeye başlar.</small><br/><br/>
           <div class="inline-group">
             <label class="radio">
-              <input name="fullscreen" type="radio" value="1" <?php echo getChecked($row->fullscreen, 1);?>>
-              <i></i><?php echo Lang::$word->_YES;?></label>
+              <input name="randomSlideshow" type="radio" value="1" <?php echo getChecked($row->randomSlideshow, "1");?>>
+              <i></i>Rastegele</label>
             <label class="radio">
-              <input name="fullscreen" type="radio" value="0" <?php echo getChecked($row->fullscreen, 0);?>>
-              <i></i><?php echo Lang::$word->_NO;?></label>
+              <input name="randomSlideshow" type="radio" value="0" <?php echo getChecked($row->randomSlideshow, "0");?>>
+              <i></i>Sıralı</label>
+          </div>
+        </div>
+      </div>
+      <div class="wk divider"></div>
+      <div class="three fields">
+        <div class="field">
+          <label>Slayt Kontrol Düğmeleri</label>
+          <small>Slaytınızda ki düğmelerin kapalı olup olmayacağını belirler.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="navButtons" type="radio" value="1" <?php echo getChecked($row->navButtons, "1");?>>
+              <i></i>Evet</label>
+            <label class="radio">
+              <input name="navButtons" type="radio" value="0" <?php echo getChecked($row->navButtons, "0");?>>
+              <i></i>Hayır</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>İleri / Geri Düğmeleri</label>
+          <small>'Slayt Kontrol Düğmeleri' açıksa eğer ileri ve geri tuşlarının dahil olup olmayacağını belirler.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="navPrevNext" type="radio" value="1" <?php echo getChecked($row->navPrevNext, "1");?>>
+              <i></i>Evet</label>
+            <label class="radio">
+              <input name="navPrevNext" type="radio" value="0" <?php echo getChecked($row->navPrevNext, "0");?>>
+              <i></i>Hayır</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Durdur / Devam Et Düğmesi</label>
+          <small>'Slayt Kontrol Düğmeleri' açıksa eğer durdur veya devam et düğmesinin dahil olup olmayacağını belirler.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="navStartStop" type="radio" value="1" <?php echo getChecked($row->navStartStop, "1");?>>
+              <i></i>Evet</label>
+            <label class="radio">
+              <input name="navStartStop" type="radio" value="0" <?php echo getChecked($row->navStartStop, "0");?>>
+              <i></i>Hayır</label>
+          </div>
+        </div>
+      </div>
+      <div class="three fields">
+        <div class="field">
+          <label>Hover Düğmeler(Alt Düğmeler)</label>
+          <small>'Slayt Kontrol Düğmeleri' açıksa eğer slaytın sayfalama düğmelerinin mouse kontrolünü yönetir.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="hoverBottomNav" type="radio" value="1" <?php echo getChecked($row->hoverBottomNav, "1");?>>
+              <i></i>Hover</label>
+            <label class="radio">
+              <input name="hoverBottomNav" type="radio" value="0" <?php echo getChecked($row->hoverBottomNav, "0");?>>
+              <i></i>Statik (Sürekli Slayt Üzerinde Gösterim)</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Hover Düğmeler(İleri / Geri Düğmeleri)</label>
+          <small>'Slayt Kontrol Düğmeleri' açıksa eğer slaytın ileri ve geri düğmelerinin mouse kontrolünü yönetir.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="hoverPrevNext" type="radio" value="1" <?php echo getChecked($row->hoverPrevNext, "1");?>>
+              <i></i>Hover</label>
+            <label class="radio">
+              <input name="hoverPrevNext" type="radio" value="0" <?php echo getChecked($row->hoverPrevNext, "0");?>>
+              <i></i>Statik (Sürekli Slayt Üzerinde Gösterim)</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Dokunmatik Ekran Fonksyonelliği</label>
+          <small>Slaytın dokunmatik ekran üzerine tutup kaydırma özelliğini etkiler.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="touchNav" type="radio" value="1" <?php echo getChecked($row->touchNav, "1");?>>
+              <i></i>Açık</label>
+            <label class="radio">
+              <input name="touchNav" type="radio" value="0" <?php echo getChecked($row->touchNav, "0");?>>
+              <i></i>Kapalı</label>
           </div>
         </div>
       </div>
