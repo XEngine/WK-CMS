@@ -43,6 +43,22 @@
       <div class="wk divider"></div>
       <div class="three fields">
         <div class="field">
+          <label>Slayt Genel Arkaplanı</label>
+          <small>Slayt içerisindeki her slayt elementi için genel bir arkaplan belirler.</small><br><br>
+          <div class="inline-group">
+              <?php if($row->globalBGImage === 'false') : ?>
+                <p>Bu slayt için belirlenmiş bir arkaplan resmi yok</p>
+              <?php else: ?>
+                <p><img src="<?php echo $row->globalBGImage; ?>" height="60"/></p>
+              <?php endif; ?>
+              <br>
+              <input type="file" name="globalBGImage">
+          </div>
+        </div>
+      </div>
+      <div class="wk divider"></div>
+      <div class="three fields">
+        <div class="field">
           <label>Otomatik Başlat</label>
           <small>Slayt, sayfa yüklendiğinde otomatik başlayıp başlamayacağını belirler.</small>
           <div class="inline-group">
@@ -197,68 +213,68 @@
       <div class="wk divider"></div>
       <div class="three fields">
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_TRANSITION;?></label>
+          <label>Slayt Geçiş Zamanlayıcısı</label>
+          <small>Slaytlar arası geçiş zamanını gösteren animasyonlu göstergeyi belirler.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="transition" type="radio" value="slide" <?php echo getChecked($row->transition, "slide");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_TRANSITION_1;?></label>
+              <input name="timeIndicator" type="radio" value="1" <?php echo getChecked($row->showBarTimer, "1");?>>
+              <i></i>Çubuk Şeklinde</label>
             <label class="radio">
-              <input name="transition" type="radio" value="crossfade" <?php echo getChecked($row->transition, "crossfade");?>>
-              <i></i><?php echo Lang::$word->_MOD_SLC_TRANSITION_2;?></label>
+              <input name="timeIndicator" type="radio" value="2" <?php echo getChecked($row->showCircleTimer, "1");?>>
+              <i></i>Yuvarlak Şekilde</label>
+            <label class="radio">
+              <input name="timeIndicator" type="radio" value="0" <?php echo getCheckedMulti($row->showBarTimer,$row->showCircleTimer, "0");?>>
+              <i></i>Devre Dışı</label>
+          </div>
+        </div>        
+        <div class="field">
+          <label>Küçük Resim Navigasyonu</label>
+          <small>Slayt içerisinde, slayt elementlerini sayfalandıran küçük önizleme resimlerini belirler.</small>
+          <div class="inline-group">
+            <label class="radio">
+              <input name="timeIndicator" type="radio" value="1" <?php echo getChecked($row->thumbnailNavigation, "always");?>>
+              <i></i>Sürekli Göster</label>
+            <label class="radio">
+              <input name="timeIndicator" type="radio" value="2" <?php echo getChecked($row->thumbnailNavigation, "hover");?>>
+              <i></i>Hover Durumunda Göster</label>
+            <label class="radio">
+              <input name="timeIndicator" type="radio" value="0" <?php echo getChecked($row->thumbnailNavigation, "disabled");?>>
+              <i></i>Devre Dışı</label>
           </div>
         </div>
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_CAPTION;?></label>
+          <label>Videoları Otomatik Oynat</label>
+          <small>Slayt içerisinde video eklenirse, gelen videoları otomatik oynatmaya başlamasını belirtir.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="captions" type="radio" value="1" <?php echo getChecked($row->captions, 1);?>>
-              <i></i><?php echo Lang::$word->_YES;?></label>
+              <input name="touchNav" type="radio" value="1" <?php echo getChecked($row->autoPlayVideos, "1");?>>
+              <i></i>Evet</label>
             <label class="radio">
-              <input name="captions" type="radio" value="0" <?php echo getChecked($row->captions, 0);?>>
-              <i></i><?php echo Lang::$word->_NO;?></label>
-          </div>
-        </div>
-        <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_AUTOPLAY;?></label>
-          <div class="inline-group">
-            <label class="radio">
-              <input name="autoplay" type="radio" value="1" <?php echo getChecked($row->autoplay, 1);?>>
-              <i></i><?php echo Lang::$word->_YES;?></label>
-            <label class="radio">
-              <input name="autoplay" type="radio" value="0" <?php echo getChecked($row->autoplay, 0);?>>
-              <i></i><?php echo Lang::$word->_NO;?></label>
+              <input name="touchNav" type="radio" value="0" <?php echo getChecked($row->autoPlayVideos, "0");?>>
+              <i></i>Hayır</label>
           </div>
         </div>
       </div>
       <div class="three fields">
         <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_LOOP;?></label>
+          <label>YouTube Videoları Önizleme Resimleri</label>
+          <small>Slayt içerisine YouTube video'su embed yapıldıysa önizleme resmini seçiniz.</small>
           <div class="inline-group">
             <label class="radio">
-              <input name="loop" type="radio" value="1" <?php echo getChecked($row->loop, 1);?>>
-              <i></i><?php echo Lang::$word->_YES;?></label>
+              <input name="timeIndicator" type="radio" value="1" <?php echo getChecked($row->youtubePreview, "maxresdefault.jpg");?>>
+              <i></i>En İyi Çözünürlük</label>
             <label class="radio">
-              <input name="loop" type="radio" value="0" <?php echo getChecked($row->loop, 0);?>>
-              <i></i><?php echo Lang::$word->_NO;?></label>
+              <input name="timeIndicator" type="radio" value="2" <?php echo getChecked($row->youtubePreview, "hqdefault.jpg");?>>
+              <i></i>Kaliteli Çözünürlük</label>
+            <label class="radio">
+              <input name="timeIndicator" type="radio" value="0" <?php echo getChecked($row->youtubePreview, "mqdefault.jpg");?>>
+              <i></i>Düşük Çözünürlük</label>
+            <label class="radio">
+              <input name="timeIndicator" type="radio" value="0" <?php echo getChecked($row->youtubePreview, "default.jpg");?>>
+              <i></i>Standart</label>
           </div>
-        </div>
-        <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_SHUFFLE;?></label>
-          <div class="inline-group">
-            <label class="radio">
-              <input name="shuffle" type="radio" value="1" <?php echo getChecked($row->shuffle, 1);?>>
-              <i></i><?php echo Lang::$word->_YES;?></label>
-            <label class="radio">
-              <input name="shuffle" type="radio" value="0" <?php echo getChecked($row->shuffle, 0);?>>
-              <i></i><?php echo Lang::$word->_NO;?></label>
-          </div>
-        </div>
-        <div class="field">
-          <label><?php echo Lang::$word->_MOD_SLC_TRANSDURRATION;?></label>
-          <label class="input">
-            <input type="text" value="<?php echo $row->durration;?>" name="durration">
-          </label>
-        </div>
+          <p>Bazı videolar standart çözünürlük dışındaki diğer çözünürlüğü desteklemiyor olabilir. Standart seçmeniz önerilir.</p>
+        </div>        
       </div>
       <div class="wk double fitted divider"></div>
       <button type="button" name="dosubmit" class="wk positive button"><?php echo Lang::$word->_MOD_SLC_EDIT;?></button>

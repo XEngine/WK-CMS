@@ -67,6 +67,20 @@
   }
 
   /**
+   * getCheckedMulti()
+   * 
+   * @param mixed $row
+   * @param mixed $status
+   * @return
+   */
+  function getCheckedMulti($row,$row2,$status)
+  {
+      if ($row == $status && $row2 == $status) {
+          echo "checked=\"checked\"";
+      }
+  }
+
+  /**
    * post()
    * 
    * @param mixed $var
